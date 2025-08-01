@@ -1,0 +1,82 @@
+
+html{    
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+ 
+.content{
+    min-height: 480px;
+}
+
+img{
+    width: 100%;
+    max-height: 370px;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+    transition: .5s ease-in-out ;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+/* Button CSS */
+ .buttonLike {
+      background-color: #f1ad54;
+      color: white;
+      padding: 10px 20px; 
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer; 
+      transition: all 0.3s ease;
+}
+.buttonLike:hover {
+      background-color: #fc7404; 
+} 
+
+.buttonLike:active {
+      transform: scale(0.97);
+      background-color: #f54316;
+}
+
+/* Hyperlink CSS */
+.linkLike {
+    color:#f1ad54;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+/* Hover: mouse is over the link */
+.linkLike:hover {
+    color:  #fc7404; 
+    text-decoration: underline;
+}
+
+/* Active: link is being clicked */
+.linkLike:active {
+    color: #f54316; 
+}
+
+  /* Footer CSS */
+
+footer{
+    text-align: center;
+    background-color: rgb(28, 18, 90);
+    color: white;  
+}

@@ -1,0 +1,87 @@
+html{    
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+
+.gridContainer{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto; 
+    justify-content: center;
+    
+}
+
+.box{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+.one{
+    grid-column: 1 / 5;
+}
+
+.two{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.three{
+    grid-column: 3 / 5;
+}
+
+.flexbox{
+    min-height: 200px;
+    display: flex; 
+    flex-direction: row; 
+    gap:10px; 
+    justify-content:space-evenly;   
+    flex-wrap: wrap; 
+}
+.flexbox .row1{
+    width: 220px;
+    max-width: 220px; 
+    overflow: hidden;
+    align-self: center;
+}
+
+.flexbox  .row2{
+    width: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    border: solid 1px #fff;
+}
+
+.flexbox  .row3{
+    height: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    border: solid 1px #fff;
+}
+
+.flexbox  img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(28, 18, 90);
+    color: white;  
+}

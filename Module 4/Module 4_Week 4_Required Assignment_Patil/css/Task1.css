@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+
+main{
+    height: 90vh;
+    overflow: auto;  
+}
+
+
+aside{
+    width:10%; 
+    float: left; 
+    padding: 10px;  
+    background:linear-gradient(to bottom, rgb(220, 244, 252), rgb(28, 18, 90)); /*  rgb(220, 244, 252) */ 
+}
+
+section[id^="section"]{
+    padding: 10px; 
+    margin: 0px 0px;
+    vertical-align: top; 
+}
+
+#headerspan{
+   font-size: 22px; 
+   font-weight: bold;
+   color: red;
+}
+
+.bottomarticle{
+    padding: 10px;
+    background-color: rgb(28, 18, 90);
+    color: white;  
+    width: 100%;   
+    float: left;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(28, 18, 90);
+    color: white;  
+}
+
+.imgFoodBanner{
+    width: auto;
+    height: 330px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 699px) {
+    .imgFoodBanner{
+        width: 390px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 470x) {
+    .imgFoodBanner{
+        width: 250px;
+        height: auto;
+    }
+} 
+ 

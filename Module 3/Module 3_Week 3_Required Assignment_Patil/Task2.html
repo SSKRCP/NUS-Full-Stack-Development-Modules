@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A Learning Page by Sonali</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a learning website for the beginners. It includes basics for the web developer.">
+    <style>
+         body{
+            background-color: #c0b9b9;
+            color: #000000;
+            font-family: Verdana, Arial, sans-serif;
+        }
+
+        .pagetitle{
+            background-color: #3c0064;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+ 
+        .flexbox{
+            min-height: 430px;
+            display: flex; 
+            border: 3px solid #3c0064;
+            justify-content: center;  
+            align-items: center; 
+            align-content: center;  
+            flex-direction: row;  
+            gap:20px;
+            flex-wrap: wrap; 
+            padding:5px 0px;
+        }
+
+        .box{
+            height: 380px;
+            width: 400px;
+            padding: 10px;
+            background-color: #fff;
+            font-size: 14px;
+            border: 3px solid #3c0064;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Basic Web Programming Website! </h1>
+    </header>
+    <div class="pagetitle">
+        Essential Tools for Web Development
+    </div>
+    <div class="flexbox">
+        <div class="box">           
+            <img src="images/csslogo.png" alt="CSS Logo"/>                 
+            <p>CSS stands for Cascading Style Sheets. We use CSS styles to define how HTML elements should be displayed on screen.</p>
+            <ul>
+                <li>
+                    It defines presentation of HTML content such as,
+                        <ol>
+                            <li>Colors</li>
+                            <li>Fonts</li>
+                            <li>Layout</li>
+                            <li>Spacing and more..</li>
+                        </ol>                     
+                </li>
+                <li>Supports responsive designs for different devices</li>
+                <li>We can use Transforms, Transitions and Animations</li>
+            </ul>
+            <p>You can visit <a href="https://www.w3schools.com/css/default.asp" target="_blank">W3School</a> for CSS tutorials. </p>             
+        </div>
+        <div class="box">
+           <img src="images/jvascriptlogo.png" alt="Javascript Logo"/>
+            <p>Javascript is the programming language for the Web. Trust me, it's very easy!</p>
+            <ul>
+                <li>
+                    This programming language is
+                        <ol>
+                            <li>lightweight</li>
+                            <li>just-in-time compiled</li>
+                        </ol>                     
+                </li>
+                <li>Supports object-oriented programming</li>
+                <li>Runs both in-browser and on the server</li>
+            </ul>
+            <p>You can visit <a href="https://www.w3schools.com/js/default.asp" target="_blank">W3School</a> for Javascript tutorials. </p>  
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>A Learning Page by Sonali</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a learning website for the beginners. It includes basics for the web developer.">
+    <style>
+         body{
+            background-color: #c0b9b9;
+            color: #000000;
+            font-family: Verdana, Arial, sans-serif;
+        }
+
+        .pagetitle{
+            background-color: #3c0064;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #frmFeedback{
+            border: 3px solid #3c0064;
+            border-radius: 8px;
+            max-width: 600px;
+            max-height: 500px;
+            margin: 10px auto;
+            padding: 10px;
+            background: #f9f9f9;
+            font-size: 15px;      
+        }
+
+        input[type=submit]{
+            background-color: #3c0064;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 4px;
+            cursor: pointer; 
+        }
+        input[type=submit]:hover {
+            background-color: #ffffff;
+            color: #3c0064;
+        }
+    </style
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Basic Web Programming Website! </h1>
+    </header>
+    <div class="pagetitle">
+        Your feedback matters!
+    </div>
+    
+    <form id="frmFeedback">
+        <label for="txtFeedback"><b>Feedback:</b></label>
+        <br/> <br/>
+        <textarea  id="txtFeedback" name="txtFeedback" maxlength="300px" required
+            rows="5" cols="60" placeholder="Please type your feedback here"></textarea>
+        <br/> <br/>
+        <input type="submit" value="Submit" id="btnSubmit">
+    </form>
+    
+    <script>
+        window.addEventListener('load', () => {
+            console.log('Your feedbak is precious. Please provide it for my improvement.');
+            alert('Your feedbak is precious. Please provide it for my improvement.');
+        });
+
+       const btn =  document.getElementById('btnSubmit');
+       const feedback = document.getElementById('txtFeedback');
+       
+       if(btn != undefined && feedback != undefined)
+       {
+         btn.addEventListener('click',function(event){ 
+            let feedbaclval=feedback.value;
+            if(feedbaclval.trim() == ''){
+                 alert('Please provide the feedback!');
+            }
+           else{
+            alert("Your feedback is, " + feedbaclval);
+           }
+           event.preventDefault();
+        });
+       }
+      
+    </script>
+</body>
+</html>

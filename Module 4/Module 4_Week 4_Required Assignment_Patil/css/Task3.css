@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0; 
+    padding: 1rem;
+}
+
+header{
+    padding: 15px;
+    background-color: crimson;
+    color: #f0f0f0; 
+}
+
+h1{
+     padding: 2rem 3rem;
+    font-size: 3.5rem;
+}
+
+p{
+    padding: 2rem 3rem;
+    font-size:  3rem;
+    font-size: 2.5rem;
+}
+
+section p{
+    line-height: 1.6;
+}
+
+.attractionsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+    max-width: 1200px; 
+}
+
+.attractionItem{
+    border: 1px solid rgb(28, 18, 90);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: lightblue;
+    line-height: 1.5;
+}
+
+.attractionItemHeader{
+   font-size: 2.5rem;
+   font-weight: bold;
+   padding: 1rem;
+}
+
+.attractionItemDesc{
+    font-size: 2rem; 
+    padding: 1rem;
+}
+
+footer{
+    padding: 10px;
+    text-align: center; 
+    background-color: rgb(28, 18, 90);
+    color: white;  
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 599px) {
+    html{
+        font-size: 37.5%;
+    }
+    .attractionsGrid{ 
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media (min-width: 600px) {
+     html{
+        font-size: 37.5%;
+    }
+    .attractionsGrid{ 
+        grid-template-columns: 1fr; 
+    }
+}
+ 
+@media (min-width: 768px) {
+     html{
+        font-size: 50%;
+    }
+    .attractionsGrid{ 
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+ 
+@media (min-width: 1024px) {
+     html{
+        font-size: 62.5%;
+    }
+    .attractionsGrid{ 
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+ 
+@media (min-width: 1200px) {
+    html{
+        font-size: 62.5%;
+    }
+    .attractionsGrid{ 
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
