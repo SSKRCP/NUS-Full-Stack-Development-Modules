@@ -77,7 +77,6 @@ footer{
         grid-template-columns: 1fr; 
     }
 }
-
 @media (min-width: 600px) {
      html{
         font-size: 37.5%;
@@ -85,8 +84,7 @@ footer{
     .attractionsGrid{ 
         grid-template-columns: 1fr; 
     }
-}
- 
+} 
 @media (min-width: 768px) {
      html{
         font-size: 50%;
@@ -94,8 +92,7 @@ footer{
     .attractionsGrid{ 
         grid-template-columns: 1fr 1fr; 
     }
-}
- 
+} 
 @media (min-width: 1024px) {
      html{
         font-size: 62.5%;
@@ -103,8 +100,7 @@ footer{
     .attractionsGrid{ 
         grid-template-columns: 1fr 1fr 1fr; 
     }
-}
- 
+} 
 @media (min-width: 1200px) {
     html{
         font-size: 62.5%;
