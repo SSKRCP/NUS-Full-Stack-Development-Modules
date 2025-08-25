@@ -1,0 +1,7 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,789,AMR,Transportation,United States,22940.0,500,28570.0,3190.0
+2009,1051,AMR,Transportation,United States,23770.0,-2070,25180.0,1140.0
+2010,1072,AMR,Transportation,United States,19920.0,-1470,25440.0,3130.0
+2011,1096,AMR,Airline,United States,22170.0,-470.0,25088.0,2204.0
+2012,1139,AMR,Airline,United States,23979.0,-1979.0,23848.0,165.0
+2013,1141,AMR,Airline,United States,24855.0,-1876.0,23510.0,1274.0

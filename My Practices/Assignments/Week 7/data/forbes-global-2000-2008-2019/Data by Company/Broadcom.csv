@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1672,Broadcom,Semiconductors,United States,3780.0,210,4840.0,10160.0
+2009,1365,Broadcom,Semiconductors,United States,4660.0,210,4390.0,8040.0
+2010,1414,Broadcom,Semiconductors,United States,4490.0,70,5130.0,15750.0
+2011,736,Broadcom,Semiconductors,United States,6818.0,1081.8,7944.0,21629.0
+2012,783,Broadcom,Semiconductors,United States,7389.0,927.0,9040.0,20606.0
+2013,787,Broadcom,Semiconductors,United States,8006.0,719.0,11208.0,19713.0
+2014,964,Broadcom,Semiconductors,United States,8219.0,424.0,11495.0,18313.0
+2015,826,Broadcom,Semiconductors,United States,8428.0,652.0,12215.0,25817.0
+2016,687,Broadcom,Semiconductors,United States,6960.0,1390.0,10777.0,58696.0
+2017,592,Broadcom,Semiconductors,Singapore,15608.0,-1877.0,49617.0,87597.0
+2018,200,Broadcom,Semiconductors,United States,18824.0,7787.0,54544.0,99969.0
+2019,178,Broadcom,Semiconductors,United States,21310.0,6500.0,72110.0,126125.0
+2020,192,Broadcom,Semiconductors,United States,22666.0,2638.0,81006.0,108591.0
+2021,144,Broadcom,Semiconductors,United States,24685.0,3953.0,76972.0,195491.0
+2022,166,Broadcom,Semiconductors,United States,28501.0,7830.0,73224.0,239640.0

@@ -1,0 +1,14 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1540,Tech Data,Technology Hardware & Equipment,United States,23420.0,110,5220.0,1850.0
+2009,1562,Tech Data,Technology Hardware & Equipment,United States,24080.0,120,5020.0,860.0
+2010,1427,Tech Data,Technology Hardware & Equipment,United States,22100.0,180,5900.0,2280.0
+2011,1568,Tech Data,Consumer Durables,United States,24376.0,214.2,6488.0,2293.0
+2012,1608,Tech Data,Consumer Durables,United States,26488.0,206.4,5785.0,2229.0
+2013,1656,Tech Data,Consumer Durables,United States,25361.0,214.6,6806.0,1897.0
+2014,1617,Tech Data,Consumer Durables,United States,26312.0,176.3,6705.0,2354.0
+2015,1599,Tech Data,Consumer Durables,United States,27671.0,175.2,6138.0,2120.0
+2016,1555,Tech Data,Consumer Durables,United States,26380.0,265.7,6358.0,2507.0
+2017,1604,Tech Data,Consumer Durables,United States,26235.0,195.1,7932.0,3433.0
+2018,1441,Tech Data,Consumer Durables,United States,36775.0,116.6,12653.0,3133.0
+2019,1435,Tech Data,Trading Companies,United States,37239.0,341.0,12987.0,3888.0
+2020,1380,Tech Data,Trading Companies,United States,36998.0,374.5,13269.0,4993.0

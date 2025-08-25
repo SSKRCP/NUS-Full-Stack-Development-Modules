@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,93,Intel,Semiconductors,United States,38330.0,6980,55650.0,115590.0
+2009,95,Intel,Semiconductors,United States,37590.0,5290,50720.0,70860.0
+2010,100,Intel,Semiconductors,United States,35130.0,4370,53100.0,115290.0
+2011,93,Intel,Semiconductors,United States,43623.0,11464.0,63186.0,114535.0
+2012,85,Intel,Semiconductors,United States,53999.0,12942.0,71119.0,138539.0
+2013,77,Intel,Semiconductors,United States,53341.0,11005.0,84351.0,105721.0
+2014,78,Intel,Semiconductors,United States,52708.0,9620.0,92358.0,129222.0
+2015,67,Intel,Semiconductors,United States,55870.0,11704.0,91956.0,147197.0
+2016,60,Intel,Semiconductors,United States,56276.0,11474.0,105467.0,149259.0
+2017,54,Intel,Semiconductors,United States,59387.0,10316.0,113327.0,170350.0
+2018,49,Intel,Semiconductors,United States,64031.0,11091.0,128596.0,254762.0
+2019,44,Intel,Semiconductors,United States,70848.0,21053.0,127963.0,263127.0
+2020,38,Intel,Semiconductors,United States,75732.0,22735.0,147710.0,253955.0
+2021,36,Intel,Semiconductors,United States,77867.0,20899.0,153091.0,263685.0
+2022,51,Intel,Semiconductors,United States,79024.0,19868.0,168406.0,190288.0

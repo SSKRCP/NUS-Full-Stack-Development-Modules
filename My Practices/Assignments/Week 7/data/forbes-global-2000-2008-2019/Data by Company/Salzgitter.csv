@@ -1,0 +1,10 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,656,Salzgitter,Materials,Germany,11140.0,1990,9140.0,10120.0
+2009,641,Salzgitter,Materials,Germany,14880.0,1320,12270.0,3400.0
+2010,625,Salzgitter,Materials,Germany,17410.0,940,12070.0,5390.0
+2011,1469,Salzgitter,Diversified Metals & Mining,Germany,11117.0,40.2,11367.0,4060.0
+2012,1354,Salzgitter,Diversified Metals & Mining,Germany,12746.0,305.7,12019.0,3432.0
+2013,1572,Salzgitter,Diversified Metals & Mining,Germany,13370.0,-128.0,11741.0,2494.0
+2014,1674,Salzgitter,Diversified Metals & Mining,Germany,12273.0,-653.6,11107.0,2383.0
+2015,1744,Salzgitter,Diversified Metals & Mining,Germany,11991.0,-45.9,10836.0,1637.0
+2022,1814,Salzgitter,Materials,Germany,11545.0,687.0,11662.0,2456.0

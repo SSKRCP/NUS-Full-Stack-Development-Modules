@@ -1,0 +1,14 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2010,910,Julius Baer Group,Banking,Switzerland,1820.0,380,41330.0,6440.0
+2011,965,Julius Baer Group,Banking,Switzerland,2222.0,376.9,49648.0,9124.0
+2012,1163,Julius Baer Group,Banking,Switzerland,2189.0,275.0,56589.0,8467.0
+2013,1077,Julius Baer Group,Diversified Financials,Switzerland,2225.0,324.6,59925.0,8780.0
+2014,1202,Julius Baer Group,Diversified Financials,Switzerland,2672.0,202.3,81545.0,9608.0
+2015,1000,Julius Baer Group,Banking,Switzerland,3153.0,400.0,82759.0,11473.0
+2016,1223,Julius Baer Group,Banking,Switzerland,3157.0,125.9,84031.0,9371.0
+2017,889,Julius Baer Group,Banking,Switzerland,3274.0,628.7,94660.0,11127.0
+2018,878,Julius Baer Group,Banking,Switzerland,3760.0,716.1,100480.0,13691.0
+2019,928,Julius Baer Group,Banking,Switzerland,4194.0,751.0,104381.0,10327.0
+2020,1077,Julius Baer Group,Banking,Switzerland,4135.0,467.7,105370.0,8505.0
+2021,830,Julius Baer Group,Banking,Switzerland,4323.0,743.7,123465.0,14068.0
+2022,946,Julius Baer Group,Banking,Switzerland,4954.0,1183.5,127647.0,10337.0

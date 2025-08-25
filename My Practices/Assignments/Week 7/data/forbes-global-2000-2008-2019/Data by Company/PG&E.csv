@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,432,PG&E,Utilities,United States,13240.0,1010,36650.0,13400.0
+2009,281,PG&E,Utilities,United States,14630.0,1340,40860.0,13980.0
+2010,293,PG&E,Utilities,United States,13400.0,1230,42950.0,15610.0
+2011,365,PG&E,Utilities,United States,13841.0,1113.0,46025.0,18129.0
+2012,400,PG&E,Utilities,United States,14956.0,858.0,49750.0,17874.0
+2013,398,PG&E,Utilities,United States,15040.0,830.0,52449.0,19112.0
+2014,413,PG&E,Utilities,United States,15598.0,828.0,57308.0,19391.0
+2015,326,PG&E,Utilities,United States,17090.0,1450.0,61877.0,25945.0
+2016,329,PG&E,Utilities,United States,16833.0,888.0,65799.0,28233.0
+2017,280,PG&E,Utilities,United States,17666.0,1407.0,70912.0,33967.0
+2018,389,PG&E,Utilities,United States,16923.0,1526.0,68154.0,22372.0
+2019,814,PG&E,Utilities,United States,16759.0,-6837.0,81507.0,11079.0
+2020,987,PG&E,Utilities,United States,17129.0,-7642.0,94011.0,5637.0
+2021,650,PG&E,Utilities,United States,18469.0,-1304.0,106929.0,22988.0
+2022,676,PG&E,Utilities,United States,20642.0,-88.0,111753.0,24108.0

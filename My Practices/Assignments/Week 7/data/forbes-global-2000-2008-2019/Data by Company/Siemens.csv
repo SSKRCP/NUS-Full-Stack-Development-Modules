@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,50,Siemens,Conglomerates,Germany,103200.0,5420,126720.0,118470.0
+2009,35,Siemens,Conglomerates,Germany,108760.0,8050,128460.0,44180.0
+2010,50,Siemens,Conglomerates,Germany,112230.0,3360,133940.0,80070.0
+2011,45,Siemens,Conglomerates,Germany,103512.0,5312.0,135001.0,110200.0
+2012,50,Siemens,Conglomerates,Germany,98414.0,8226.2,135561.0,91995.0
+2013,51,Siemens,Conglomerates,Germany,100638.0,5730.0,134446.0,91923.0
+2014,53,Siemens,Conglomerates,Germany,99654.0,5999.5,140099.0,114247.0
+2015,54,Siemens,Conglomerates,Germany,97369.0,6658.8,131568.0,97671.0
+2016,51,Siemens,Conglomerates,Germany,85511.0,6463.9,133926.0,91812.0
+2017,50,Siemens,Conglomerates,Germany,88354.0,6446.9,133141.0,109773.0
+2018,51,Siemens,Conglomerates,Germany,94469.0,7139.8,163376.0,112503.0
+2019,64,Siemens,Conglomerates,Germany,98316.0,5465.0,164165.0,96998.0
+2020,62,Siemens,Conglomerates,Germany,97431.0,5864.9,171006.0,75384.0
+2021,68,Siemens,Conglomerates,Germany,58017.0,4932.7,148579.0,139762.0
+2022,77,Siemens,Conglomerates,Germany,76464.0,6554.1,164222.0,102228.0

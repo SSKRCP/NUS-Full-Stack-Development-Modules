@@ -1,0 +1,13 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1016,Allergan,Drugs & Biotechnology,United States,3940.0,500,6580.0,18210.0
+2009,920,Allergan,Drugs & Biotechnology,United States,4400.0,580,6790.0,11800.0
+2010,820,Allergan,Drugs & Biotechnology,United States,4500.0,620,7540.0,18330.0
+2011,1280,Allergan,Drugs & Biotechnology,United States,4919.0,0.6,8308.0,21858.0
+2012,851,Allergan,Drugs & Biotechnology,United States,5419.0,934.5,8509.0,28313.0
+2013,805,Allergan,Drugs & Biotechnology,United States,5806.0,1098.8,9179.0,32729.0
+2014,753,Allergan,Drugs & Biotechnology,United States,6300.0,1272.5,10574.0,36932.0
+2016,135,Allergan,Drugs & Biotechnology,United States,18276.0,3915.2,135841.0,90539.0
+2017,149,Allergan,Drugs & Biotechnology,Ireland,14967.0,14973.4,128986.0,80068.0
+2018,582,Allergan,Drugs & Biotechnology,Ireland,16040.0,-1846.4,112021.0,52104.0
+2019,595,Allergan,Drugs & Biotechnology,Ireland,15787.0,-5096.0,101788.0,46333.0
+2020,561,Allergan,Drugs & Biotechnology,Ireland,16089.0,-5271.0,94699.0,61635.0

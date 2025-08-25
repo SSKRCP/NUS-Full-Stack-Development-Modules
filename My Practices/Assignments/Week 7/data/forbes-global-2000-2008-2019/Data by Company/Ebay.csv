@@ -1,0 +1,10 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2014,250,eBay,Retailing,United States,16048.0,2856.0,41488.0,71005.0
+2015,593,eBay,Retailing,United States,17938.0,46.0,45132.0,68903.0
+2016,466,eBay,Retailing,United States,13136.0,1725.0,17785.0,27880.0
+2017,407,eBay,Retailing,United States,8979.0,7266.0,23847.0,36599.0
+2018,897,eBay,Retailing,United States,9986.0,-1644.0,24555.0,38030.0
+2019,533,eBay,Business Services & Supplies,United States,10754.0,2530.0,22819.0,31476.0
+2020,515,eBay,Business Services & Supplies,United States,10470.0,4680.0,18929.0,31708.0
+2021,476,eBay,Business Services & Supplies,United States,10697.0,5667.0,19310.0,44181.0
+2022,1009,eBay,Business Services & Supplies,United States,10898.0,-2178.0,26626.0,31239.0

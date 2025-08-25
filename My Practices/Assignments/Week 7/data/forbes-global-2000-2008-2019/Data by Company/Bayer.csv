@@ -1,0 +1,11 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2013,120,Bayer,Chemicals,Germany,52454.0,3226.9,65597.0,84872.0
+2014,120,Bayer,Chemicals,Germany,53313.0,4233.8,70712.0,111336.0
+2015,108,Bayer,Chemicals,Germany,56028.0,4544.4,84983.0,126382.0
+2016,97,Bayer,Chemicals,Germany,51634.0,4510.0,84637.0,102527.0
+2017,89,Bayer,Chemicals,Germany,51832.0,5012.2,90086.0,94382.0
+2018,100,Bayer,Chemicals,Germany,44351.0,8422.2,92726.0,104625.0
+2019,164,Bayer,Drugs & Biotechnology,Germany,46702.0,2000.0,150254.0,64127.0
+2020,102,Bayer,Drugs & Biotechnology,Germany,49895.0,4825.1,137676.0,64714.0
+2021,429,Bayer,Drugs & Biotechnology,Germany,47195.0,-11964.0,150313.0,63552.0
+2022,253,Bayer,Drugs & Biotechnology,Germany,52103.0,1182.0,144172.0,70059.0

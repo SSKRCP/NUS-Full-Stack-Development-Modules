@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,38,ArcelorMittal,Materials,Luxembourg,105220.0,10370,133650.0,108820.0
+2009,41,ArcelorMittal,Materials,Luxembourg,124940.0,9400,133090.0,26800.0
+2010,405,ArcelorMittal,Materials,Luxembourg,65110.0,120,127700.0,59750.0
+2011,90,ArcelorMittal,Diversified Metals & Mining,Luxembourg,78025.0,2916.0,130904.0,53583.0
+2012,130,ArcelorMittal,Diversified Metals & Mining,Luxembourg,93973.0,2262.0,121880.0,32295.0
+2013,485,ArcelorMittal,Diversified Metals & Mining,Luxembourg,84213.0,-3726.0,114573.0,23105.0
+2014,491,ArcelorMittal,Diversified Metals & Mining,Luxembourg,79449.0,-2530.2,112308.0,26814.0
+2015,579,ArcelorMittal,Diversified Metals & Mining,Luxembourg,79157.0,-1140.2,99179.0,15783.0
+2016,568,ArcelorMittal,Diversified Metals & Mining,Luxembourg,63534.0,-8022.0,76846.0,17501.0
+2017,216,ArcelorMittal,Diversified Metals & Mining,Luxembourg,56782.0,1759.7,75142.0,25103.0
+2018,152,ArcelorMittal,Diversified Metals & Mining,Luxembourg,68587.0,4566.7,85297.0,36820.0
+2019,195,ArcelorMittal,Materials,Luxembourg,75963.0,5137.0,91249.0,23977.0
+2020,650,ArcelorMittal,Materials,Luxembourg,70546.0,-2482.3,87908.0,11087.0
+2021,540,ArcelorMittal,Materials,Luxembourg,53223.0,-838.0,82052.0,31842.0
+2022,188,ArcelorMittal,Materials,Luxembourg,76654.0,14985.4,90512.0,28985.0

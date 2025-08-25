@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1313,Moody's,Business Services & Supplies,United States,2260.0,700,1710.0,9410.0
+2009,1432,Moody's,Business Services & Supplies,United States,1760.0,460,1770.0,4220.0
+2010,1463,Moody's,Business Services & Supplies,United States,1800.0,400,2000.0,6440.0
+2011,1563,Moody's,Business Services & Supplies,United States,2032.0,507.8,2540.0,7423.0
+2012,1439,Moody's,Business Services & Supplies,United States,2281.0,572.0,2876.0,9496.0
+2013,1322,Moody's,Business Services & Supplies,United States,2730.0,690.0,3961.0,11540.0
+2014,1193,Moody's,Business Services & Supplies,United States,2972.0,804.5,4395.0,17290.0
+2015,1133,Moody's,Business Services & Supplies,United States,3334.0,988.7,4669.0,21197.0
+2016,1128,Moody's,Business Services & Supplies,United States,3484.0,941.3,5123.0,19251.0
+2017,1679,Moody's,Business Services & Supplies,United States,3604.0,266.6,5327.0,21639.0
+2018,1095,Moody's,Business Services & Supplies,United States,4356.0,1027.9,9014.0,33400.0
+2019,1039,Moody's,Business Services & Supplies,United States,4443.0,1310.0,9526.0,35696.0
+2020,917,Moody's,Business Services & Supplies,United States,4977.0,1536.7,11306.0,45660.0
+2021,814,Moody's,Business Services & Supplies,United States,5371.0,1778.0,12409.0,60262.0
+2022,850,Moody's,Business Services & Supplies,United States,6218.0,2214.0,14680.0,59769.0

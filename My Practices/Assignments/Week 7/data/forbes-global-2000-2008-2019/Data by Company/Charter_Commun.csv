@@ -1,0 +1,5 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1458,Charter Commun,Media,United States,6000.0,-1620,14670.0,390.0
+2009,1521,Charter Commun,Media,United States,6480.0,-2450,13880.0,10.0
+2010,1408,Charter Commun,Media,United States,6760.0,#VALUE!,16660.0,3390.0
+2011,1308,Charter Commun,Media,United States,7631.0,,15707.0,5585.0

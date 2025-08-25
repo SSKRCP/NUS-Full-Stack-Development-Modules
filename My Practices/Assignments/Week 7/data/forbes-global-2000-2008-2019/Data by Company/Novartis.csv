@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,72,Novartis,Drugs & Biotechnology,Switzerland,40220.0,12620,71890.0,111620.0
+2009,61,Novartis,Drugs & Biotechnology,Switzerland,42010.0,8300,73220.0,82970.0
+2010,61,Novartis,Drugs & Biotechnology,Switzerland,44270.0,8400,90890.0,126220.0
+2011,62,Novartis,Drugs & Biotechnology,Switzerland,50624.0,9794.0,123318.0,125218.0
+2012,62,Novartis,Drugs & Biotechnology,Switzerland,58566.0,9113.0,117496.0,150369.0
+2013,57,Novartis,Drugs & Biotechnology,Switzerland,56673.0,9505.0,124216.0,169282.0
+2014,54,Novartis,Drugs & Biotechnology,Switzerland,57903.0,9185.8,126254.0,227436.0
+2015,52,Novartis,Drugs & Biotechnology,Switzerland,53564.0,10140.1,125766.0,272634.0
+2016,47,Novartis,Drugs & Biotechnology,Switzerland,49428.0,17645.4,131905.0,203776.0
+2017,61,Novartis,Drugs & Biotechnology,Switzerland,48520.0,6699.6,130387.0,193163.0
+2018,63,Novartis,Drugs & Biotechnology,Switzerland,50261.0,8060.0,135526.0,202983.0
+2019,60,Novartis,Drugs & Biotechnology,Switzerland,51902.0,12633.0,145646.0,175649.0
+2020,68,Novartis,Drugs & Biotechnology,Switzerland,48614.0,12213.7,123097.0,193047.0
+2021,65,Novartis,Drugs & Biotechnology,Switzerland,48631.0,8074.3,132189.0,198606.0
+2022,68,Novartis,Drugs & Biotechnology,Switzerland,51627.0,24138.0,135884.0,200733.0

@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,228,Amgen,Drugs & Biotechnology,United States,14770.0,3170,34640.0,49510.0
+2009,180,Amgen,Drugs & Biotechnology,United States,15000.0,4200,36440.0,50590.0
+2010,166,Amgen,Drugs & Biotechnology,United States,14640.0,4610,39630.0,55720.0
+2011,201,Amgen,Drugs & Biotechnology,United States,15053.0,4627.0,43486.0,49914.0
+2012,212,Amgen,Drugs & Biotechnology,United States,15582.0,3683.0,48871.0,53327.0
+2013,192,Amgen,Drugs & Biotechnology,United States,17265.0,4345.0,54298.0,68712.0
+2014,170,Amgen,Drugs & Biotechnology,United States,18672.0,5081.0,66125.0,95184.0
+2015,161,Amgen,Drugs & Biotechnology,United States,20058.0,5158.0,69009.0,117689.0
+2016,131,Amgen,Drugs & Biotechnology,United States,21416.0,6939.0,71576.0,122398.0
+2017,131,Amgen,Drugs & Biotechnology,United States,22683.0,7722.0,77626.0,120322.0
+2018,215,Amgen,Drugs & Biotechnology,United States,22965.0,2219.0,71164.0,115811.0
+2019,175,Amgen,Drugs & Biotechnology,United States,23768.0,8394.0,66416.0,109313.0
+2020,162,Amgen,Drugs & Biotechnology,United States,23879.0,7675.0,61669.0,140605.0
+2021,150,Amgen,Drugs & Biotechnology,United States,25246.0,7264.0,62948.0,147238.0
+2022,210,Amgen,Drugs & Biotechnology,United States,25987.0,5893.0,61165.0,133633.0

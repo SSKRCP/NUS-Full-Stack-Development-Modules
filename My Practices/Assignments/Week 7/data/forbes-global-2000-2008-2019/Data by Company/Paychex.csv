@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1339,Paychex,Business Services & Supplies,United States,1990.0,550,5030.0,11440.0
+2009,1202,Paychex,Business Services & Supplies,United States,2110.0,570,5110.0,7960.0
+2010,1215,Paychex,Business Services & Supplies,United States,2020.0,490,4660.0,10950.0
+2011,1365,Paychex,Business Services & Supplies,United States,2034.0,493.3,5023.0,12012.0
+2012,1401,Paychex,Business Services & Supplies,United States,2163.0,538.8,4932.0,11536.0
+2013,1361,Paychex,Business Services & Supplies,United States,2292.0,569.0,7508.0,12363.0
+2014,1320,Paychex,Business Services & Supplies,United States,2440.0,605.1,7069.0,15459.0
+2015,1300,Paychex,Business Services & Supplies,United States,2711.0,659.6,7344.0,17874.0
+2016,1195,Paychex,Business Services & Supplies,United States,2890.0,739.9,7068.0,18824.0
+2017,1178,Paychex,Business Services & Supplies,United States,3107.0,800.1,7310.0,20905.0
+2018,1200,Paychex,Business Services & Supplies,United States,3308.0,900.5,6843.0,22756.0
+2019,1122,Paychex,Business Services & Supplies,United States,3663.0,1033.0,10363.0,29323.0
+2020,1080,Paychex,Business Services & Supplies,United States,4106.0,1107.8,9467.0,24579.0
+2021,1077,Paychex,Business Services & Supplies,United States,3943.0,1055.2,9666.0,35135.0
+2022,1100,Paychex,Business Services & Supplies,United States,4497.0,1359.4,10284.0,47420.0

@@ -1,0 +1,4 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1791,Domtar,Materials,Canada,5950.0,-610,7810.0,1930.0
+2010,990,Domtar,Materials,Canada,5470.0,310,6520.0,12900.0
+2011,1489,Domtar,"Engineering, Manufacturing",Canada,5850.0,605.0,4257.0,3615.0

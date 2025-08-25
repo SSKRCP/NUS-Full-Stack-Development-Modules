@@ -1,0 +1,9 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2010,358,Areva,Materials,France,12220.0,790,32950.0,16580.0
+2011,381,Areva,Utilities,France,12187.0,1182.1,46335.0,17056.0
+2012,849,Areva,Utilities,France,11492.0,-3139.9,39429.0,10035.0
+2013,1011,Areva,Utilities,France,12325.0,-130.6,39850.0,6224.0
+2014,906,Areva,Utilities,France,12000.0,-655.8,41298.0,9918.0
+2015,1253,Areva,Utilities,France,11057.0,-6412.0,36205.0,3522.0
+2016,1724,Areva,Utilities,France,4656.0,-2059.3,31489.0,1804.0
+2017,1892,Areva,Utilities,France,11.0,-735.6,33299.0,1725.0

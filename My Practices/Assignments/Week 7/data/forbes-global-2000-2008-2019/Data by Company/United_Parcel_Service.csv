@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,339,United Parcel Service,Transportation,United States,49690.0,380,39040.0,73810.0
+2009,139,United Parcel Service,Transportation,United States,51490.0,3000,31880.0,40990.0
+2010,139,United Parcel Service,Transportation,United States,45300.0,2150,31880.0,58430.0
+2011,154,United Parcel Service,Air Courier,United States,49545.0,3488.0,33597.0,73136.0
+2012,168,United Parcel Service,Air Courier,United States,53105.0,3804.0,34701.0,75162.0
+2013,253,United Parcel Service,Air Courier,United States,54127.0,807.0,38863.0,81491.0
+2014,160,United Parcel Service,Air Courier,United States,55491.0,4372.0,36212.0,89649.0
+2015,187,United Parcel Service,Air Courier,United States,58258.0,3032.0,35471.0,87376.0
+2016,146,United Parcel Service,Air Courier,United States,58050.0,4844.0,38311.0,93295.0
+2017,159,United Parcel Service,Air Courier,United States,60502.0,3431.0,40377.0,91344.0
+2018,153,United Parcel Service,Air Courier,United States,67705.0,5097.0,44464.0,99698.0
+2019,159,United Parcel Service,Transportation,United States,71911.0,4791.0,50016.0,98268.0
+2020,143,United Parcel Service,Transportation,United States,74815.0,4294.0,57857.0,81285.0
+2021,165,United Parcel Service,Transportation,United States,84432.0,1427.0,62408.0,155998.0
+2022,100,United Parcel Service,Transportation,United States,97204.0,12890.0,69405.0,163027.0

@@ -1,0 +1,4090 @@
+WEBVTT
+
+1
+00:00:08.600 --> 00:00:10.459
+Vishwas: A very good morning, all.
+
+2
+00:00:12.790 --> 00:00:14.489
+Vishwas: A very good morning, Gohan.
+
+3
+00:00:17.740 --> 00:00:19.160
+Minakshi Sharma: Good morning.
+
+4
+00:00:19.920 --> 00:00:20.810
+Vishwas: Thank you.
+
+5
+00:00:29.110 --> 00:00:31.660
+Vishwas: Good morning, Stanley. Good morning, Sylvia.
+
+6
+00:00:31.780 --> 00:00:33.069
+Vishwas: Good morning.
+
+7
+00:00:34.060 --> 00:00:35.259
+Stanley Neo: Morning, sir.
+
+8
+00:00:36.060 --> 00:00:37.509
+Vishwas: Good morning, good day.
+
+9
+00:00:43.730 --> 00:00:46.330
+Vishwas: Good morning, Stante. Good morning, Nobel.
+
+10
+00:00:51.880 --> 00:00:53.439
+Vishwas: Good morning, Anthony.
+
+11
+00:00:54.410 --> 00:00:55.520
+Vishwas: Alright.
+
+12
+00:00:56.270 --> 00:00:57.580
+Vishwas: We will start.
+
+13
+00:00:58.490 --> 00:00:59.789
+Vishwas: In a minute.
+
+14
+00:01:06.270 --> 00:01:11.669
+Vishwas: All right. Welcome to the session on full-stack development with AI.
+
+15
+00:01:13.100 --> 00:01:18.420
+Vishwas: In that, we are going to look at introduction to Python Power 2.
+
+16
+00:01:20.050 --> 00:01:23.240
+Vishwas: So, in this session, we'll be looking at
+
+17
+00:01:25.770 --> 00:01:31.049
+Vishwas: major Python libraries, CSV, NumPy, Pandas, and MacBotlib.
+
+18
+00:01:31.970 --> 00:01:34.979
+Vishwas: Okay, so with the focus on…
+
+19
+00:01:35.460 --> 00:01:39.730
+Vishwas: the exploratory data analysis. We are going to look at that.
+
+20
+00:01:40.470 --> 00:01:43.830
+Vishwas: Okay, before we dive into that.
+
+21
+00:01:45.000 --> 00:01:51.430
+Vishwas: If I want to see… store a sequence of objects, okay, if I want to store a sequence of values.
+
+22
+00:01:54.040 --> 00:01:55.260
+Vishwas: in Python.
+
+23
+00:01:55.820 --> 00:01:57.930
+Vishwas: what is that I'm going to use?
+
+24
+00:01:58.770 --> 00:02:00.820
+Vishwas: Can anyone put that in the chat?
+
+25
+00:02:02.790 --> 00:02:05.119
+Vishwas: If I want to store a sequence.
+
+26
+00:02:05.340 --> 00:02:07.699
+Vishwas: What is that I'm going to use in Python?
+
+27
+00:02:16.280 --> 00:02:17.720
+Vishwas: I want to store.
+
+28
+00:02:17.910 --> 00:02:21.970
+Vishwas: Think of this, I want to store multiple values.
+
+29
+00:02:22.400 --> 00:02:27.429
+Vishwas: in one particular variable, what is the data structure that I'm going to use?
+
+30
+00:02:29.560 --> 00:02:32.789
+Vishwas: Array, yes, very good. In Python?
+
+31
+00:02:33.200 --> 00:02:34.410
+Vishwas: In Python?
+
+32
+00:02:35.460 --> 00:02:41.789
+Vishwas: List, yes. List, dictionary, yes. Very good. We can use list, we can use dictionary.
+
+33
+00:02:42.740 --> 00:02:43.590
+Vishwas: Lucky.
+
+34
+00:02:44.020 --> 00:02:48.690
+Vishwas: So, very good. So, we are going to use a list.
+
+35
+00:02:48.820 --> 00:02:50.840
+Vishwas: Okay, so we can use a list.
+
+36
+00:02:51.400 --> 00:03:00.139
+Vishwas: When we want to store multiple objects in one particular variable, and if we want to store the key-value pairs, we are going to use a dictionary.
+
+37
+00:03:02.040 --> 00:03:09.190
+Vishwas: Okay, and if I want to store, unique values, I would use a sector.
+
+38
+00:03:11.190 --> 00:03:17.589
+Vishwas: Okay? And if I want to store a list of values, but I don't want to modify it.
+
+39
+00:03:17.910 --> 00:03:19.400
+Vishwas: I would use it.
+
+40
+00:03:22.340 --> 00:03:27.669
+Vishwas: Okay, so list… is when I want to store,
+
+41
+00:03:28.930 --> 00:03:44.470
+Vishwas: Multiple values. Multiple objects I want to store, I will use a list. When I want to store the key value pairs, I will use a dictionary. When I want to store unique values, I would use a set. And when I want to store a list of values, but I don't want to modify them.
+
+42
+00:03:44.690 --> 00:03:46.019
+Vishwas: I would use it upon.
+
+43
+00:03:49.150 --> 00:03:51.430
+Vishwas: Okay, so because, tuple is a…
+
+44
+00:03:51.890 --> 00:03:56.479
+Vishwas: immutable data structure. Okay, so we have seen this.
+
+45
+00:03:57.790 --> 00:04:04.439
+Vishwas: Alright, now, how do I append to a list? We have seen all this, so I will say list.
+
+46
+00:04:04.660 --> 00:04:10.129
+Vishwas: And… So, and I will pass the element to white.
+
+47
+00:04:11.420 --> 00:04:14.870
+Vishwas: Okay, so I have a list, and I'm trying to append to it.
+
+48
+00:04:15.510 --> 00:04:18.710
+Vishwas: Now let's assume… We have two lists.
+
+49
+00:04:20.790 --> 00:04:22.060
+Vishwas: Let's assume.
+
+50
+00:04:22.360 --> 00:04:24.390
+Vishwas: We have to-List.
+
+51
+00:04:26.750 --> 00:04:27.810
+Vishwas: Just a moment.
+
+52
+00:04:39.610 --> 00:04:40.340
+Vishwas: Okay.
+
+53
+00:04:41.110 --> 00:04:43.820
+Vishwas: So, let's assume we have two lists.
+
+54
+00:04:45.220 --> 00:04:48.289
+Vishwas: L1 is equal to… is having…
+
+55
+00:04:48.410 --> 00:04:52.800
+Vishwas: 1, 2, 3, 4. These syllables.
+
+56
+00:04:53.380 --> 00:04:59.390
+Vishwas: Okay, and I have one number, like, let's speak very simple number.
+
+57
+00:04:59.520 --> 00:05:01.550
+Vishwas: K is equal to 2.
+
+58
+00:05:02.870 --> 00:05:07.780
+Vishwas: Okay, and I want, okay, expected output is this.
+
+59
+00:05:09.090 --> 00:05:10.690
+Vishwas: Expected.
+
+60
+00:05:11.700 --> 00:05:12.770
+Vishwas: output.
+
+61
+00:05:13.930 --> 00:05:14.800
+Vishwas: Is this?
+
+62
+00:05:15.060 --> 00:05:23.300
+Vishwas: I want, like, L2 is equal to… 2, 4, 6, 8.
+
+63
+00:05:24.990 --> 00:05:26.519
+Vishwas: I want to get this.
+
+64
+00:05:28.970 --> 00:05:34.550
+Vishwas: what would you do here? How would you get this 2468 from… L1…
+
+65
+00:05:38.210 --> 00:05:39.270
+Vishwas: Anyone?
+
+66
+00:05:41.500 --> 00:05:44.370
+Vishwas: I have L1, I have K,
+
+67
+00:05:44.480 --> 00:05:47.310
+Vishwas: And I'm expecting 2, 4, 6, 8, like that.
+
+68
+00:05:48.320 --> 00:05:52.000
+Vishwas: in a new… Yes? Okay.
+
+69
+00:05:52.450 --> 00:05:55.790
+Vishwas: David, very good. L1, Star K.
+
+70
+00:05:57.190 --> 00:05:58.890
+Vishwas: Any other options?
+
+71
+00:06:02.800 --> 00:06:04.359
+Vishwas: Any other options?
+
+72
+00:06:05.450 --> 00:06:09.969
+Vishwas: NP dot multiple of L1 star K, okay.
+
+73
+00:06:10.540 --> 00:06:11.450
+Vishwas: Okay?
+
+74
+00:06:11.900 --> 00:06:13.500
+Vishwas: Any other options?
+
+75
+00:06:14.610 --> 00:06:17.269
+Vishwas: Let's assume, okay, let's assume.
+
+76
+00:06:17.430 --> 00:06:20.930
+Vishwas: We still have not seen the, NumPy.
+
+77
+00:06:21.400 --> 00:06:33.630
+Vishwas: Okay, we have not seen the numpy yet, so if you just know Python with list L1, dictionary, you set stuff, etc, and you want to get this, how would you do that?
+
+78
+00:06:38.430 --> 00:06:39.510
+Vishwas: Think, think.
+
+79
+00:06:40.660 --> 00:06:43.509
+Vishwas: Yes, exactly. Very good.
+
+80
+00:06:43.630 --> 00:06:48.000
+Vishwas: Very good. Nishant, very good. Ranjani, very good. David, yes.
+
+81
+00:06:48.180 --> 00:06:50.969
+Vishwas: Using the for loop, I would have to do that.
+
+82
+00:06:51.340 --> 00:06:52.150
+Vishwas: Okay.
+
+83
+00:06:52.850 --> 00:06:55.169
+Vishwas: Now, the problem here.
+
+84
+00:06:55.690 --> 00:07:00.520
+Vishwas: Okay, now, here we have 4 elements, and we are looping over it.
+
+85
+00:07:02.160 --> 00:07:08.910
+Vishwas: Okay? But… Let's say we have thousands or lots of elements in a list.
+
+86
+00:07:10.310 --> 00:07:12.830
+Vishwas: Okay, we have a lack element.
+
+87
+00:07:13.330 --> 00:07:18.479
+Vishwas: And lag numbers we have. And we want to multiply to 2 both.
+
+88
+00:07:20.050 --> 00:07:26.759
+Vishwas: Okay, so in this case, it would not be very efficient if I want to do this.
+
+89
+00:07:27.310 --> 00:07:28.850
+Vishwas: Multiplication.
+
+90
+00:07:33.700 --> 00:07:37.640
+Vishwas: Okay, so, using the for loop, I have to do.
+
+91
+00:07:37.790 --> 00:07:44.579
+Vishwas: Okay? So, L1 star K… L1… Star K.
+
+92
+00:07:44.990 --> 00:07:46.370
+Vishwas: doesn't work.
+
+93
+00:07:48.080 --> 00:07:49.040
+Vishwas: Okay?
+
+94
+00:07:49.160 --> 00:07:51.430
+Vishwas: I would have to use a for loop.
+
+95
+00:07:56.790 --> 00:08:01.300
+Vishwas: Okay? Now… To solve this problem.
+
+96
+00:08:01.760 --> 00:08:14.979
+Vishwas: Okay, so this problem. The problem is, I have very large data sets, very large numbers, very large CDs like this, and I want to do some operations
+
+97
+00:08:16.970 --> 00:08:21.080
+Vishwas: That's when I go for matrices, or vectors.
+
+98
+00:08:30.660 --> 00:08:31.610
+Vishwas: Okay.
+
+99
+00:08:32.390 --> 00:08:39.800
+Vishwas: And what does this matrices or vector? So you might have studied this in your very… or in your high school.
+
+100
+00:08:40.039 --> 00:08:44.149
+Vishwas: Okay, in your high school, you would have studied about this matrix.
+
+101
+00:08:45.020 --> 00:08:54.490
+Vishwas: Or vectors, okay? So when I say a matrix, matrixes, N cross… M cross N arrangement.
+
+102
+00:08:54.650 --> 00:08:56.520
+Vishwas: Where I will have rows.
+
+103
+00:08:56.850 --> 00:08:58.060
+Vishwas: Where did I have.
+
+104
+00:08:58.240 --> 00:08:59.370
+Vishwas: or lumps.
+
+105
+00:08:59.970 --> 00:09:01.350
+Vishwas: of elements.
+
+106
+00:09:02.710 --> 00:09:03.610
+Vishwas: Okay?
+
+107
+00:09:03.990 --> 00:09:09.419
+Vishwas: A vector is one-dimensional, that's… Okay, this is a vector.
+
+108
+00:09:12.750 --> 00:09:14.480
+Vishwas: Okay, now.
+
+109
+00:09:15.230 --> 00:09:16.670
+Vishwas: If I want to.
+
+110
+00:09:17.170 --> 00:09:19.159
+Vishwas: do these operations.
+
+111
+00:09:19.290 --> 00:09:20.690
+Vishwas: In Bite 10.
+
+112
+00:09:21.610 --> 00:09:23.349
+Vishwas: I cannot do this.
+
+113
+00:09:23.780 --> 00:09:25.819
+Vishwas: much efficiently.
+
+114
+00:09:26.000 --> 00:09:32.809
+Vishwas: Because sometimes, it is slower because of this. I would have to use a for loop, and I have to do this.
+
+115
+00:09:32.960 --> 00:09:38.860
+Vishwas: Okay, so people built, okay? People had already built.
+
+116
+00:09:39.260 --> 00:09:40.660
+Vishwas: libraries.
+
+117
+00:09:42.720 --> 00:09:46.229
+Vishwas: Just one more. You mean delete these two pages?
+
+118
+00:09:56.740 --> 00:09:57.480
+Vishwas: Yes.
+
+119
+00:10:02.830 --> 00:10:08.540
+Vishwas: Okay, so people had built Efficient libraries for this.
+
+120
+00:10:21.370 --> 00:10:28.610
+Vishwas: Okay, so for doing this, We're doing this.
+
+121
+00:10:28.730 --> 00:10:33.209
+Vishwas: Matrix operations, or linear algebra.
+
+122
+00:10:38.660 --> 00:10:40.890
+Vishwas: So, it was returning C.
+
+123
+00:10:41.520 --> 00:10:50.560
+Vishwas: Okay? And C is one language where you have access to very low-level hardware, and Using that.
+
+124
+00:10:50.730 --> 00:10:53.650
+Vishwas: You are able to build efficient
+
+125
+00:10:54.330 --> 00:10:57.379
+Vishwas: algorithms for this. Efficient libraries you can build them.
+
+126
+00:10:58.380 --> 00:11:00.430
+Vishwas: So, these are called as glass.
+
+127
+00:11:01.170 --> 00:11:02.510
+Vishwas: and LAPACs.
+
+128
+00:11:04.740 --> 00:11:08.509
+Vishwas: Okay, so these two are some of the libraries which are already there.
+
+129
+00:11:09.780 --> 00:11:19.600
+Vishwas: Okay, now, on top of this, we wanted to use this in… by 10… We make use of these.
+
+130
+00:11:19.800 --> 00:11:20.680
+Vishwas: And?
+
+131
+00:11:20.880 --> 00:11:24.810
+Vishwas: We use a library called as NumPy.
+
+132
+00:11:29.520 --> 00:11:32.400
+Vishwas: stands for Numerical Python.
+
+133
+00:11:40.450 --> 00:11:43.919
+Vishwas: Okay? NumPy. Numerical Python.
+
+134
+00:11:44.040 --> 00:11:46.459
+Vishwas: It's what is built on this?
+
+135
+00:11:47.000 --> 00:11:58.250
+Vishwas: Glass and LabPack library, which helps us in efficient management, or efficient implementations, faster implementations of linear algebra.
+
+136
+00:11:59.400 --> 00:12:08.269
+Vishwas: Okay, and upon this, we have also built a tool called as SciPy, Scientific Python.
+
+137
+00:12:08.890 --> 00:12:10.090
+Vishwas: Say, bye.
+
+138
+00:12:10.650 --> 00:12:15.129
+Vishwas: Scientific Python, which is used by the scientist community.
+
+139
+00:12:15.250 --> 00:12:22.360
+Vishwas: Where they use it for higher Order, metrics, manipulations.
+
+140
+00:12:22.900 --> 00:12:26.269
+Vishwas: And applications of signal processing.
+
+141
+00:12:26.540 --> 00:12:28.030
+Vishwas: All such things.
+
+142
+00:12:28.960 --> 00:12:29.800
+Vishwas: Okay?
+
+143
+00:12:30.520 --> 00:12:31.769
+Vishwas: They use this.
+
+144
+00:12:33.910 --> 00:12:39.500
+Vishwas: Okay, now, in NumPy, we have Huh?
+
+145
+00:12:40.770 --> 00:12:45.090
+Vishwas: base data structure, which is called as an array.
+
+146
+00:12:47.450 --> 00:12:50.510
+Vishwas: Okay, now, what is an array?
+
+147
+00:12:50.710 --> 00:12:52.920
+Vishwas: An array? Yes. A.
+
+148
+00:12:53.110 --> 00:12:54.560
+Vishwas: contagious.
+
+149
+00:12:56.250 --> 00:12:57.420
+Vishwas: sequence.
+
+150
+00:13:06.020 --> 00:13:06.890
+Vishwas: Off?
+
+151
+00:13:07.150 --> 00:13:09.340
+Vishwas: Homogeneous values.
+
+152
+00:13:16.610 --> 00:13:19.979
+Vishwas: When I say homogeneous, they are all of same type.
+
+153
+00:13:20.770 --> 00:13:25.169
+Vishwas: Okay, it is a sequence of homogeneous values.
+
+154
+00:13:25.810 --> 00:13:33.010
+Vishwas: And NumPy uses this base array. This data structure is what is used.
+
+155
+00:13:34.600 --> 00:13:38.450
+Vishwas: Okay, so with this… with this.
+
+156
+00:13:38.670 --> 00:13:44.200
+Vishwas: In Python, the basic primitive data types that we have seen was int?
+
+157
+00:13:45.280 --> 00:13:46.260
+Vishwas: float.
+
+158
+00:13:48.760 --> 00:13:49.760
+Vishwas: Stream?
+
+159
+00:13:52.080 --> 00:13:53.010
+Vishwas: Bull.
+
+160
+00:13:53.680 --> 00:13:54.950
+Vishwas: Like this, right?
+
+161
+00:13:56.420 --> 00:14:01.700
+Vishwas: So, with this, we also have… Other data types.
+
+162
+00:14:02.060 --> 00:14:03.970
+Vishwas: in NumPy.
+
+163
+00:14:05.540 --> 00:14:06.400
+Vishwas: Okay.
+
+164
+00:14:07.430 --> 00:14:10.460
+Vishwas: So, we have… in NumPy.
+
+165
+00:14:11.130 --> 00:14:26.020
+Vishwas: Other than this, we have… integer, float, string, boolean, we also have… … complex, … Unsigned integer.
+
+166
+00:14:33.270 --> 00:14:37.519
+Vishwas: Time delta, which is basically a difference of time.
+
+167
+00:14:39.660 --> 00:14:41.949
+Vishwas: And, we have datetime.
+
+168
+00:14:46.830 --> 00:14:48.549
+Vishwas: And we have void.
+
+169
+00:14:50.950 --> 00:14:53.609
+Vishwas: And we also have a unique code string.
+
+170
+00:14:58.560 --> 00:15:06.560
+Vishwas: Okay, so we have other data types, including the ones which we had seen in the normal Python.
+
+171
+00:15:08.480 --> 00:15:19.270
+Vishwas: Okay, so NumPy Library is a library for doing the numerical computing. The base data structure is called as a array.
+
+172
+00:15:19.390 --> 00:15:25.170
+Vishwas: Which uses… which is a, basically, storing homogeneous values.
+
+173
+00:15:27.470 --> 00:15:33.109
+Vishwas: And… NumPy helps us in doing much faster and efficient.
+
+174
+00:15:33.610 --> 00:15:35.330
+Vishwas: numerical computing.
+
+175
+00:15:35.620 --> 00:15:38.579
+Vishwas: So, any questions still here? Please let me know.
+
+176
+00:15:51.900 --> 00:15:52.570
+Vishwas: Nope.
+
+177
+00:15:53.110 --> 00:15:54.389
+Vishwas: Thank you very much.
+
+178
+00:15:55.090 --> 00:15:58.469
+Vishwas: If no questions, can everyone put no in the chat?
+
+179
+00:16:01.420 --> 00:16:02.540
+Vishwas: Thank you, King.
+
+180
+00:16:02.820 --> 00:16:03.660
+Vishwas: Okay.
+
+181
+00:16:05.090 --> 00:16:06.240
+Vishwas: One night, thank you.
+
+182
+00:16:08.040 --> 00:16:08.930
+Vishwas: Soup.
+
+183
+00:16:09.280 --> 00:16:10.380
+Vishwas: Visa?
+
+184
+00:16:10.830 --> 00:16:14.139
+Vishwas: NumPy, and we will see how to use this.
+
+185
+00:16:14.750 --> 00:16:22.380
+Vishwas: Okay, now, I can use this in my normal, … Python programs.
+
+186
+00:16:22.900 --> 00:16:39.940
+Vishwas: Okay, but just for, understanding purposes, for prototyping purposes, we would use the online collab N1. Okay, so you can use the Jupyter Notebook also, okay? Or you can do this in normal Python programs also.
+
+187
+00:16:40.280 --> 00:16:43.870
+Vishwas: But we will use the online collab environment today.
+
+188
+00:16:45.060 --> 00:16:51.600
+Vishwas: Okay, now, let's say… How do I install this? First, I can install it.
+
+189
+00:16:51.730 --> 00:16:53.820
+Vishwas: Using this command, right?
+
+190
+00:16:55.170 --> 00:16:56.200
+Vishwas: Install.
+
+191
+00:16:57.100 --> 00:16:58.140
+Vishwas: Number 5.
+
+192
+00:16:58.900 --> 00:17:06.550
+Vishwas: Okay, so any library, That you would want to install is found in a website.
+
+193
+00:17:06.690 --> 00:17:07.820
+Vishwas: by less?
+
+194
+00:17:08.579 --> 00:17:09.720
+Vishwas: Pipe by.
+
+195
+00:17:15.910 --> 00:17:18.119
+Vishwas: pi pi.org.
+
+196
+00:17:19.900 --> 00:17:24.410
+Vishwas: In this website, you can see Multiple.
+
+197
+00:17:25.190 --> 00:17:29.109
+Vishwas: libraries which can be used in Python.
+
+198
+00:17:29.810 --> 00:17:32.669
+Vishwas: Okay, so I'll share this link once.
+
+199
+00:17:43.440 --> 00:17:49.019
+Vishwas: Okay, now, do I need to visit this here every time? No.
+
+200
+00:17:49.180 --> 00:17:55.440
+Vishwas: Okay, if I just want to see what are the packages, how I can use them?
+
+201
+00:17:55.600 --> 00:18:04.510
+Vishwas: if I want to know about that packages, what is the home, home page of that project, all those things, if I want to look at, I can use this website.
+
+202
+00:18:04.650 --> 00:18:07.910
+Vishwas: So, let me say I want to search for number.
+
+203
+00:18:13.810 --> 00:18:14.770
+Vishwas: Sappy.
+
+204
+00:18:16.060 --> 00:18:17.190
+Vishwas: Num, bye.
+
+205
+00:18:18.930 --> 00:18:24.970
+Vishwas: So, I get… so many packages. In this, we are going to use this NumPy.
+
+206
+00:18:25.310 --> 00:18:32.790
+Vishwas: Now, here, they also give you how to install, okay, the command to install it, pip install numpy.
+
+207
+00:18:32.960 --> 00:18:38.100
+Vishwas: And you can get a project description here, with the website.
+
+208
+00:18:38.220 --> 00:18:41.960
+Vishwas: With the documentation, all those things.
+
+209
+00:18:43.560 --> 00:18:47.260
+Vishwas: Okay, so whenever you are learning some tool.
+
+210
+00:18:48.080 --> 00:18:50.660
+Vishwas: I suggest you go through the…
+
+211
+00:18:50.770 --> 00:18:54.560
+Vishwas: documentation. You keep that documentation handy.
+
+212
+00:18:56.000 --> 00:19:00.320
+Vishwas: Okay? You keep that documentation handy, you have to keep it like this.
+
+213
+00:19:01.110 --> 00:19:01.930
+Vishwas: No.
+
+214
+00:19:02.760 --> 00:19:08.949
+Vishwas: When I'm trying to use NumPy for the first time, you could go with this Getting Started Guide.
+
+215
+00:19:10.130 --> 00:19:11.590
+Vishwas: Go through that once.
+
+216
+00:19:12.460 --> 00:19:19.350
+Vishwas: Okay, so once you go through that, then you can go for user guide, how to use it, all those things.
+
+217
+00:19:20.070 --> 00:19:21.080
+Vishwas: Then…
+
+218
+00:19:21.250 --> 00:19:29.049
+Vishwas: Finally, you can keep this reference. What and all I can do with NumPy? What are all the things which are there?
+
+219
+00:19:29.310 --> 00:19:32.670
+Vishwas: To understand those, you have to go through here.
+
+220
+00:19:33.380 --> 00:19:40.740
+Vishwas: Okay? Because there is very less that we can cover. It's your exploration that you have to perform.
+
+221
+00:19:41.190 --> 00:19:50.760
+Vishwas: Okay, so you have to go through this API reference. So, this will give you all the things that you can do with NumPy.
+
+222
+00:20:01.450 --> 00:20:02.350
+Vishwas: Okay.
+
+223
+00:20:02.910 --> 00:20:03.810
+Vishwas: No.
+
+224
+00:20:04.660 --> 00:20:07.599
+Vishwas: So, to install it, I will use this command.
+
+225
+00:20:07.840 --> 00:20:10.910
+Vishwas: pip install number, I can do that.
+
+226
+00:20:11.230 --> 00:20:18.610
+Vishwas: But in a notebook environment, or in a collab environment, I would have to include.
+
+227
+00:20:18.750 --> 00:20:24.630
+Vishwas: exclamation mark. If I have not installed it, I would have to include exclamation mark.
+
+228
+00:20:25.220 --> 00:20:27.190
+Vishwas: Let me connect to a runtime.
+
+229
+00:20:37.370 --> 00:20:38.060
+Vishwas: Huh.
+
+230
+00:20:38.410 --> 00:20:45.630
+Vishwas: So, in a collab or a Jupyter Notebook environment, you would use that exclamation mark to install.
+
+231
+00:20:46.180 --> 00:20:49.230
+Vishwas: Otherwise, normally, you would use pip installment.
+
+232
+00:20:51.790 --> 00:20:55.620
+Vishwas: Is this fine with you all? If yes, can I get a yes in the chat?
+
+233
+00:20:58.740 --> 00:20:59.500
+Vishwas: Okay.
+
+234
+00:21:01.300 --> 00:21:02.090
+Vishwas: Thank you.
+
+235
+00:21:03.440 --> 00:21:09.930
+Vishwas: Alright. So, we installed the… NumPy. Now we would want to use this.
+
+236
+00:21:10.320 --> 00:21:12.130
+Vishwas: So how do I use this?
+
+237
+00:21:12.360 --> 00:21:14.540
+Vishwas: In the last session, we had seen it.
+
+238
+00:21:14.830 --> 00:21:18.200
+Vishwas: How to use a particular code? Well said.
+
+239
+00:21:18.490 --> 00:21:19.570
+Vishwas: keyboard?
+
+240
+00:21:20.490 --> 00:21:21.620
+Vishwas: No, bye.
+
+241
+00:21:22.200 --> 00:21:23.530
+Vishwas: I can do that.
+
+242
+00:21:25.640 --> 00:21:34.419
+Vishwas: Okay, but every time, I would have to specify numpy, numpy, numpy, like that. Okay, for every command, I would have to do that.
+
+243
+00:21:34.770 --> 00:21:40.919
+Vishwas: So instead, let me make it short. I would say, import numpy as NP.
+
+244
+00:21:42.400 --> 00:21:43.839
+Vishwas: And I'll run this.
+
+245
+00:21:46.680 --> 00:21:49.020
+Vishwas: Okay, so I imported that.
+
+246
+00:21:49.890 --> 00:21:55.199
+Vishwas: Now, the base data structure in a NumPy is array.
+
+247
+00:21:55.800 --> 00:22:00.360
+Vishwas: Okay, array is just like a string, but… sorry, array is just like a list.
+
+248
+00:22:00.590 --> 00:22:05.820
+Vishwas: But… Only difference is, it contains homogeneous values.
+
+249
+00:22:06.640 --> 00:22:12.049
+Vishwas: So, let me say ERA is equal to NP dot.
+
+250
+00:22:12.250 --> 00:22:13.130
+Vishwas: I hate.
+
+251
+00:22:13.390 --> 00:22:16.109
+Vishwas: And I can pass a list to it.
+
+252
+00:22:16.390 --> 00:22:18.630
+Vishwas: Let me go to the report.
+
+253
+00:22:18.790 --> 00:22:20.409
+Vishwas: Yes, I can pass.
+
+254
+00:22:23.420 --> 00:22:27.369
+Vishwas: Now, if I want to print it, I can just do… yeah, …
+
+255
+00:22:27.760 --> 00:22:31.049
+Vishwas: in the collab or not environment, it can do ERR.
+
+256
+00:22:31.710 --> 00:22:36.469
+Vishwas: But if I want to print it, normally I would use… But in Dofiada.
+
+257
+00:22:45.770 --> 00:22:52.640
+Vishwas: Okay, so we are now able to see the array which we have created.
+
+258
+00:22:52.910 --> 00:22:55.919
+Vishwas: Now, let's say I want to multiply 2 to add.
+
+259
+00:22:56.320 --> 00:23:00.250
+Vishwas: So, I'll just say… ERA 3?
+
+260
+00:23:03.130 --> 00:23:08.360
+Vishwas: Sorry, the error 1 is equal to the error star 2.
+
+261
+00:23:10.400 --> 00:23:14.329
+Vishwas: Just like the multiplication BR domain. Yeah.
+
+262
+00:23:15.720 --> 00:23:17.030
+Vishwas: Yeah. What?
+
+263
+00:23:19.700 --> 00:23:20.510
+Vishwas: No.
+
+264
+00:23:21.100 --> 00:23:23.010
+Vishwas: I'll be able to see.
+
+265
+00:23:24.020 --> 00:23:25.699
+Vishwas: Multiplication by 2.
+
+266
+00:23:28.870 --> 00:23:34.020
+Vishwas: Okay, so like this, we can confirm the operations directly.
+
+267
+00:23:34.340 --> 00:23:44.320
+Vishwas: Okay, now, array is having dimensions, okay? I can have an array inside an array.
+
+268
+00:23:45.450 --> 00:23:47.370
+Vishwas: Okay, so observe this.
+
+269
+00:23:48.980 --> 00:23:50.210
+Vishwas: Observe this.
+
+270
+00:24:01.580 --> 00:24:04.050
+Uday Kulkarni: Hi Sarna. I have one question.
+
+271
+00:24:04.460 --> 00:24:04.920
+Vishwas: Yes.
+
+272
+00:24:04.920 --> 00:24:08.539
+Uday Kulkarni: So the output which is printed is nothing but a list only, right?
+
+273
+00:24:10.080 --> 00:24:12.619
+Vishwas: It is an array. Its type is an array.
+
+274
+00:24:12.620 --> 00:24:14.350
+Uday Kulkarni: Okay. It looks like a list.
+
+275
+00:24:14.350 --> 00:24:16.180
+Vishwas: But its type is an array.
+
+276
+00:24:16.310 --> 00:24:21.299
+Uday Kulkarni: Okay, so we cannot, get the element with the index 012 like that.
+
+277
+00:24:21.300 --> 00:24:22.499
+Vishwas: We can get that.
+
+278
+00:24:22.700 --> 00:24:23.360
+Uday Kulkarni: Okay.
+
+279
+00:24:23.940 --> 00:24:24.630
+Vishwas: Okay.
+
+280
+00:24:25.080 --> 00:24:26.729
+Vishwas: Just, I'll show that.
+
+281
+00:24:31.380 --> 00:24:32.500
+Vishwas: So, it's an array.
+
+282
+00:24:32.500 --> 00:24:33.720
+Uday Kulkarni: number, okay.
+
+283
+00:24:33.880 --> 00:24:34.460
+Vishwas: Okay?
+
+284
+00:24:34.460 --> 00:24:35.680
+Uday Kulkarni: Okay, thank you.
+
+285
+00:24:35.680 --> 00:24:36.220
+Vishwas: Yep.
+
+286
+00:24:36.840 --> 00:24:37.890
+Vishwas: Now…
+
+287
+00:24:38.380 --> 00:24:46.459
+Vishwas: I'll show this to you, okay? Now, if I just have a number, okay, let's say I have K is equal to 23.
+
+288
+00:24:47.490 --> 00:24:54.270
+Vishwas: And I put this… Yeah, Ra is equal to NP dot Ari?
+
+289
+00:24:55.420 --> 00:24:56.300
+Vishwas: Off?
+
+290
+00:24:56.450 --> 00:24:57.760
+Vishwas: K, and C.
+
+291
+00:24:59.570 --> 00:25:03.999
+Vishwas: Okay, so it's a number, and I have converted it to an array.
+
+292
+00:25:04.170 --> 00:25:06.360
+Vishwas: So, it's dimension.
+
+293
+00:25:09.180 --> 00:25:11.859
+Vishwas: Dimension is 0.
+
+294
+00:25:13.970 --> 00:25:23.220
+Vishwas: Okay? Then, if I have, let's say, K again is equal to… 1, 2, 3, 4.
+
+295
+00:25:24.310 --> 00:25:30.290
+Vishwas: So, again, if I do this command, ER, this one, it's dimension.
+
+296
+00:25:31.740 --> 00:25:33.230
+Vishwas: is wonderful.
+
+297
+00:25:35.620 --> 00:25:44.320
+Vishwas: Okay? Similarly, now observe, if I have K is equal to… 1, 2, 3, 4.
+
+298
+00:25:45.290 --> 00:25:51.669
+Vishwas: One array inside an array, or one list inside another list.
+
+299
+00:25:51.950 --> 00:25:55.970
+Vishwas: Okay, inside is another list you have. So it's dimension.
+
+300
+00:25:58.380 --> 00:26:00.020
+Vishwas: S? 2.
+
+301
+00:26:01.820 --> 00:26:10.159
+Vishwas: So again, if I have… K is equal to 1, 2, 3. 1, 2, 3, 4.
+
+302
+00:26:12.370 --> 00:26:14.340
+Vishwas: It's dimension.
+
+303
+00:26:15.770 --> 00:26:17.310
+Vishwas: is 3.
+
+304
+00:26:17.700 --> 00:26:32.470
+Vishwas: And it goes on increasingly. So, when I say dimension, I want you to understand this. How it would be, it would be one list inside another list. This… so that's a dimension for you.
+
+305
+00:26:32.880 --> 00:26:41.739
+ankit BHARDWAJ: So, sir, one question there, like, what are these, like, these are different, different dimensions of an array, but what is the use of these in the practical world, like, in the real world?
+
+306
+00:26:41.740 --> 00:26:44.209
+Vishwas: Huh, huh, huh, I'll tell you.
+
+307
+00:26:44.960 --> 00:26:46.849
+Vishwas: Okay, very good question.
+
+308
+00:26:47.580 --> 00:26:48.340
+Vishwas: No.
+
+309
+00:26:48.590 --> 00:26:50.800
+Vishwas: Let's take an image.
+
+310
+00:26:51.200 --> 00:26:53.359
+Vishwas: Okay, I will take an image.
+
+311
+00:26:55.880 --> 00:26:59.799
+Vishwas: Okay, I am representing this on my…
+
+312
+00:27:00.140 --> 00:27:03.980
+Vishwas: computer. I'm using a computer to represent this.
+
+313
+00:27:04.850 --> 00:27:07.520
+Vishwas: Okay, so when I take an image.
+
+314
+00:27:07.720 --> 00:27:15.810
+Vishwas: and I want to represent this on the memory, I would have to convert it to a series of values. Do you all agree?
+
+315
+00:27:19.890 --> 00:27:21.100
+Vishwas: Do you all agree?
+
+316
+00:27:23.740 --> 00:27:24.590
+Vishwas: Yes.
+
+317
+00:27:28.100 --> 00:27:28.900
+Vishwas: Okay.
+
+318
+00:27:29.540 --> 00:27:30.690
+Vishwas: Okay? Yes.
+
+319
+00:27:31.270 --> 00:27:32.240
+Vishwas: Nahu?
+
+320
+00:27:32.420 --> 00:27:39.960
+Vishwas: So if I have to represent this as a series of values, what I would have to do, I would have to first divide this.
+
+321
+00:27:43.160 --> 00:27:48.370
+Vishwas: Okay, this whole image into… Rows and columns are built divided.
+
+322
+00:27:50.860 --> 00:27:56.159
+Vishwas: Okay, in this, one very small unit is called as a pixel.
+
+323
+00:27:57.540 --> 00:28:01.450
+Vishwas: Okay, so this small unit is called as a pixel.
+
+324
+00:28:02.790 --> 00:28:10.539
+Vishwas: Okay, now… If… I have to have this whole image.
+
+325
+00:28:10.640 --> 00:28:18.350
+Vishwas: Okay, if I have to have this whole image, As a… As what, as though…
+
+326
+00:28:19.750 --> 00:28:22.180
+Vishwas: RA, or as a matrix.
+
+327
+00:28:25.500 --> 00:28:32.310
+Vishwas: Okay, if I have to have this as a matrix, so I can represent it like these values, where each
+
+328
+00:28:32.890 --> 00:28:40.200
+Vishwas: each, … each element It's represented by a cell like this.
+
+329
+00:28:41.720 --> 00:28:44.229
+Vishwas: With just… with its rows and columns.
+
+330
+00:28:45.510 --> 00:28:48.980
+Vishwas: Okay, so there may be many rows, there may be many columns.
+
+331
+00:28:50.410 --> 00:28:59.270
+Vishwas: Okay, now… At each position, okay, at each position, I will have 3 values.
+
+332
+00:29:00.150 --> 00:29:04.329
+Vishwas: So, if I have to represent one color, okay, any color.
+
+333
+00:29:07.930 --> 00:29:22.689
+Vishwas: If I have to represent, it is composed of 3 primary colors. You all know this, very basic of when you were learning the art, you know that any color, if I happen to represent, I can use. It's a combination of three colors.
+
+334
+00:29:22.690 --> 00:29:28.820
+Vishwas: Basic, if we take… it is, like, we can take red, green, and blue RGB values.
+
+335
+00:29:31.070 --> 00:29:33.950
+Vishwas: Okay, now… absurd?
+
+336
+00:29:34.310 --> 00:29:44.040
+Vishwas: In each place, I want to represent it as 3 values. 1, 2, 3… What are?
+
+337
+00:29:44.260 --> 00:29:46.190
+Vishwas: But Z, part B.
+
+338
+00:29:48.800 --> 00:29:51.970
+Vishwas: Okay? Again, for R, for G, for B.
+
+339
+00:29:52.250 --> 00:29:54.420
+Vishwas: For R, for G, for P.
+
+340
+00:29:57.460 --> 00:29:59.529
+Vishwas: So, can you observe?
+
+341
+00:29:59.710 --> 00:30:01.879
+Vishwas: So this is a matrix.
+
+342
+00:30:03.190 --> 00:30:06.780
+Vishwas: Okay? Which is consisting of rows and columns.
+
+343
+00:30:07.160 --> 00:30:11.269
+Vishwas: Inside that, I have, again, 3 values, which I have not represented.
+
+344
+00:30:11.400 --> 00:30:14.830
+Vishwas: So, can we say this as a multi-dimension?
+
+345
+00:30:15.780 --> 00:30:17.550
+Vishwas: ID dimension.
+
+346
+00:30:22.130 --> 00:30:22.990
+Vishwas: Okay?
+
+347
+00:30:23.630 --> 00:30:25.529
+Vishwas: or N dimensions.
+
+348
+00:30:28.070 --> 00:30:31.869
+Vishwas: If yes, can I get a yes in the chat? Did you guys get the idea?
+
+349
+00:30:36.030 --> 00:30:36.860
+Vishwas: Okay.
+
+350
+00:30:38.150 --> 00:30:40.690
+Vishwas: I hope, I cleared all your doubts.
+
+351
+00:30:44.020 --> 00:30:44.810
+Vishwas: Okay.
+
+352
+00:30:45.780 --> 00:30:53.309
+Vishwas: So… That's why… We call this as n-dimensional array.
+
+353
+00:30:54.900 --> 00:30:57.040
+Vishwas: N-dimensional array.
+
+354
+00:30:58.450 --> 00:31:00.299
+Vishwas: So you can observe here.
+
+355
+00:31:00.670 --> 00:31:06.010
+Vishwas: It's of type, numpy.ndarray, ndimensional.
+
+356
+00:31:06.180 --> 00:31:09.319
+Vishwas: It can be any number of dimensions.
+
+357
+00:31:09.980 --> 00:31:13.650
+Vishwas: Okay, so… Observe this.
+
+358
+00:31:13.760 --> 00:31:17.290
+Vishwas: Now, let me create… Oh, Ari.
+
+359
+00:31:18.530 --> 00:31:22.890
+Vishwas: ARR is equal to… NP start.
+
+360
+00:31:23.480 --> 00:31:24.450
+Vishwas: Ari?
+
+361
+00:31:25.500 --> 00:31:26.350
+Vishwas: Huh?
+
+362
+00:31:28.020 --> 00:31:33.310
+Vishwas: 1, 2, 3, 4, 5, 6… 7.
+
+363
+00:31:33.660 --> 00:31:34.620
+Vishwas: Okay.
+
+364
+00:31:34.860 --> 00:31:41.179
+Vishwas: And, while creating itself, I want to give the dimensions of it any time
+
+365
+00:31:44.800 --> 00:31:46.400
+Vishwas: Sorry, ND…
+
+366
+00:31:54.860 --> 00:31:56.390
+Vishwas: I can say, fine.
+
+367
+00:31:58.180 --> 00:31:59.620
+Vishwas: I'll print it.
+
+368
+00:32:05.730 --> 00:32:13.109
+Vishwas: Okay, so it's a multi-dimensional… It's of 5 dimensions. Can you see here?
+
+369
+00:32:16.440 --> 00:32:18.280
+Vishwas: Okay, now…
+
+370
+00:32:18.930 --> 00:32:27.229
+Vishwas: This, why I want you guys to understand this, is I want you guys to understand the indexing part of it, which we will deal now.
+
+371
+00:32:27.900 --> 00:32:28.900
+Vishwas: Okay.
+
+372
+00:32:29.370 --> 00:32:32.310
+Vishwas: Now, we have a dimension of 5.
+
+373
+00:32:32.920 --> 00:32:35.530
+Vishwas: Okay, and I want to access this.
+
+374
+00:32:36.140 --> 00:32:39.539
+Vishwas: one, or I want to access this. Two.
+
+375
+00:32:41.300 --> 00:32:46.170
+Vishwas: Okay, I want to access this element to… How do I do that?
+
+376
+00:32:48.270 --> 00:32:50.770
+Vishwas: So, just go on observing.
+
+377
+00:32:51.420 --> 00:32:52.730
+Vishwas: I'll print.
+
+378
+00:32:54.950 --> 00:32:55.900
+Vishwas: friend.
+
+379
+00:32:57.970 --> 00:33:00.619
+Vishwas: ARR of 0.
+
+380
+00:33:03.490 --> 00:33:04.780
+Vishwas: One reduced.
+
+381
+00:33:05.670 --> 00:33:06.699
+Vishwas: Then again.
+
+382
+00:33:07.170 --> 00:33:09.729
+Vishwas: I'll add another zero.
+
+383
+00:33:12.160 --> 00:33:13.530
+Vishwas: 1 reduced again.
+
+384
+00:33:14.340 --> 00:33:16.770
+Vishwas: I'll add another zero.
+
+385
+00:33:20.040 --> 00:33:23.380
+Vishwas: One red, use it again. Can you observe? Go on observing here.
+
+386
+00:33:24.410 --> 00:33:26.350
+Vishwas: Then… again.
+
+387
+00:33:26.710 --> 00:33:28.239
+Vishwas: ERR off.
+
+388
+00:33:29.580 --> 00:33:30.680
+Vishwas: Zero.
+
+389
+00:33:33.090 --> 00:33:34.640
+Vishwas: So, now.
+
+390
+00:33:35.080 --> 00:33:40.270
+Vishwas: I want to access to, which is… Once.
+
+391
+00:33:43.000 --> 00:33:44.550
+Vishwas: So I get 2.
+
+392
+00:33:46.100 --> 00:33:50.180
+Vishwas: So… Based on the dimension.
+
+393
+00:33:51.840 --> 00:33:54.499
+Uday Kulkarni: So, sir, root value is now 2A string.
+
+394
+00:33:55.560 --> 00:33:56.619
+Uday Kulkarni: Or, individual.
+
+395
+00:33:56.620 --> 00:33:59.019
+Vishwas: integer. 2 is an integer, we have given integer.
+
+396
+00:33:59.020 --> 00:33:59.740
+Uday Kulkarni: Yeah, yeah.
+
+397
+00:34:03.190 --> 00:34:06.669
+Vishwas: Alright, so I can access the element.
+
+398
+00:34:07.370 --> 00:34:16.180
+Vishwas: as indexing. All the things which you did for a list, like indexing, slicing, negative indexing, all those things are possible.
+
+399
+00:34:16.639 --> 00:34:18.159
+Vishwas: to Daria, also.
+
+400
+00:34:19.800 --> 00:34:24.530
+Vishwas: Okay, but only thing you need to keep in mind is of the dimension of it.
+
+401
+00:34:27.260 --> 00:34:30.690
+Vishwas: Okay, now, let me take another example here.
+
+402
+00:34:31.480 --> 00:34:33.260
+Vishwas: To make that clear.
+
+403
+00:34:33.840 --> 00:34:42.159
+Vishwas: Let's say I take a… two-dimensional, like, ARR is equal to… NP dot?
+
+404
+00:34:42.770 --> 00:34:43.690
+Vishwas: Buddy?
+
+405
+00:34:44.270 --> 00:34:46.560
+Vishwas: I'll take two-dimensional L.
+
+406
+00:34:47.909 --> 00:34:51.550
+Vishwas: Learn… 2, 3?
+
+407
+00:34:51.929 --> 00:34:52.870
+Vishwas: Gotta?
+
+408
+00:34:55.719 --> 00:34:57.530
+Vishwas: 4, 5, 6.
+
+409
+00:34:58.950 --> 00:34:59.880
+Vishwas: Okay.
+
+410
+00:35:00.110 --> 00:35:03.160
+Vishwas: Now, I want to see its dimension.
+
+411
+00:35:08.550 --> 00:35:10.769
+Vishwas: Okay, I'll put that.
+
+412
+00:35:11.550 --> 00:35:15.430
+Vishwas: Dimension of… Array is…
+
+413
+00:35:20.820 --> 00:35:23.119
+Vishwas: Let me make it as a F string.
+
+414
+00:35:23.770 --> 00:35:30.079
+Vishwas: The dimension of the array is… ARR dot, and dive.
+
+415
+00:35:32.390 --> 00:35:34.010
+Vishwas: Again, same.
+
+416
+00:35:35.280 --> 00:35:36.240
+Vishwas: print.
+
+417
+00:35:38.200 --> 00:35:39.040
+Vishwas: Duh?
+
+418
+00:35:39.470 --> 00:35:41.500
+Vishwas: Size of the array.
+
+419
+00:35:44.280 --> 00:35:48.930
+Vishwas: Size of the array is… Yeah, our dark?
+
+420
+00:35:49.270 --> 00:35:57.759
+Vishwas: Size. There are so many things associated with it, so I want you to have a difference of it. Then I'll say I want the shape of it.
+
+421
+00:35:57.990 --> 00:36:01.769
+Vishwas: Then I'll say I want… The length of it.
+
+422
+00:36:03.020 --> 00:36:03.870
+Vishwas: Hello?
+
+423
+00:36:08.280 --> 00:36:10.329
+Vishwas: Length of the array is.
+
+424
+00:36:11.530 --> 00:36:12.710
+Vishwas: Yeah, no.
+
+425
+00:36:14.360 --> 00:36:20.699
+Vishwas: Length we have seen in the list, right? So, just like that, if I apply the length, what type will get
+
+426
+00:36:21.320 --> 00:36:32.049
+Vishwas: Okay, so, observe here, what are the things that we are looking at? We are looking at the dimensions of it, the size of it, the shape of it, the length of it.
+
+427
+00:36:34.320 --> 00:36:36.080
+Vishwas: Okay, so observe.
+
+428
+00:36:37.010 --> 00:36:46.909
+Vishwas: When I say the dimension of the array, dimension of the array is, like, brackets, inside brackets, how much you have got, that's what it is showing. The dimension of the array is 2.
+
+429
+00:36:47.240 --> 00:36:50.710
+Vishwas: It's not that, okay, observe, it is not.
+
+430
+00:36:50.830 --> 00:36:56.919
+Vishwas: What it is not. It is not counting the number of arrays inside this. No.
+
+431
+00:36:57.040 --> 00:37:02.469
+Vishwas: It is looking at what is… how many brackets are inside.
+
+432
+00:37:02.730 --> 00:37:08.160
+Vishwas: Okay, like that, you have to visualize this, observe this. Okay, so that's here.
+
+433
+00:37:08.340 --> 00:37:09.899
+Vishwas: Dimension of the ring.
+
+434
+00:37:10.120 --> 00:37:17.329
+Vishwas: Then, how many elements are there? There are 6 elements. 1, 2, 3, 4, 5, 6. 6 elements. That is the size of your array.
+
+435
+00:37:17.650 --> 00:37:19.750
+Vishwas: What is the shape of your array?
+
+436
+00:37:20.730 --> 00:37:24.520
+Vishwas: Shape is, there are 2 rows, 3 columns.
+
+437
+00:37:24.680 --> 00:37:28.039
+Vishwas: There are two rows, three columns.
+
+438
+00:37:29.260 --> 00:37:36.249
+Vishwas: Okay, and what is the length of the array? Length of the array is 2, which is actually counting how many
+
+439
+00:37:36.740 --> 00:37:41.140
+Vishwas: Like, how many rows are there? This is what you are getting.
+
+440
+00:37:41.370 --> 00:37:46.230
+Vishwas: Okay, so this is the number of rows. Okay, now I'll print that array.
+
+441
+00:37:48.350 --> 00:37:50.290
+Vishwas: Friend? Yeah.
+
+442
+00:37:53.440 --> 00:37:58.669
+Vishwas: Okay, so I got 2 rows, 3 columns. 1, 2, 3, 4, 5, 6.
+
+443
+00:37:59.040 --> 00:38:01.650
+Vishwas: Now, if I want to access Pi.
+
+444
+00:38:02.560 --> 00:38:04.930
+Vishwas: Okay, I want to access 5.
+
+445
+00:38:05.160 --> 00:38:09.950
+Vishwas: observe this, how would I do that? I would say… Rent?
+
+446
+00:38:11.140 --> 00:38:16.080
+Vishwas: In the first… Or… Yeah, huh? Yeah, not off?
+
+447
+00:38:16.210 --> 00:38:17.140
+Vishwas: 1.
+
+448
+00:38:18.020 --> 00:38:26.569
+Vishwas: Okay, 0, row, one row. Okay, 0 and 1. In one, I want to get the first element, which is…
+
+449
+00:38:26.960 --> 00:38:27.660
+Vishwas: Wow.
+
+450
+00:38:30.710 --> 00:38:34.010
+Vishwas: Okay, array of… 1.
+
+451
+00:38:37.120 --> 00:38:39.189
+Vishwas: Okay, now observe here.
+
+452
+00:38:39.870 --> 00:38:42.730
+Vishwas: So, if this is a bit difficult.
+
+453
+00:38:43.060 --> 00:38:46.220
+Vishwas: To understand, you can also put those together.
+
+454
+00:38:46.920 --> 00:38:48.540
+Vishwas: No, that's it for the end.
+
+455
+00:38:49.490 --> 00:38:51.110
+Vishwas: Yara? Hoff?
+
+456
+00:38:51.570 --> 00:38:53.569
+Vishwas: One, comma, one.
+
+457
+00:38:57.170 --> 00:38:59.620
+Vishwas: That should also give you 5.
+
+458
+00:38:59.960 --> 00:39:03.339
+Vishwas: So, so these two are the same.
+
+459
+00:39:06.820 --> 00:39:08.310
+Vishwas: Any questions?
+
+460
+00:39:11.510 --> 00:39:15.330
+Vishwas: If no questions, can I get a new in the chat?
+
+461
+00:39:18.310 --> 00:39:19.390
+Vishwas: No keys.
+
+462
+00:39:19.590 --> 00:39:20.619
+Vishwas: Thank you very much.
+
+463
+00:39:22.470 --> 00:39:23.350
+Vishwas: All right.
+
+464
+00:39:23.550 --> 00:39:25.019
+Vishwas: So this is how.
+
+465
+00:39:25.970 --> 00:39:27.740
+Vishwas: The RES.
+
+466
+00:39:27.880 --> 00:39:32.249
+Vishwas: Okay, so we understood about the array, we understood about the…
+
+467
+00:39:34.810 --> 00:39:39.669
+Vishwas: dimensions, all those things. So, we have some operations that we can do.
+
+468
+00:39:39.860 --> 00:39:41.800
+Vishwas: Okay, another thing now.
+
+469
+00:39:42.160 --> 00:39:48.990
+Vishwas: Now, what is the type of it? Okay, what is the type of the elements which are there in my array?
+
+470
+00:39:49.660 --> 00:39:53.289
+Vishwas: Is it a string? Is it an integer? Is it a float?
+
+471
+00:39:54.400 --> 00:39:57.200
+Vishwas: Okay, so that is given to you.
+
+472
+00:39:57.380 --> 00:39:58.230
+Vishwas: Bike?
+
+473
+00:39:58.440 --> 00:40:01.440
+Vishwas: a variable called as deep time.
+
+474
+00:40:01.820 --> 00:40:03.949
+Vishwas: Yara dot P time.
+
+475
+00:40:04.190 --> 00:40:05.400
+Vishwas: data type.
+
+476
+00:40:05.560 --> 00:40:06.630
+Vishwas: T-type.
+
+477
+00:40:08.170 --> 00:40:12.359
+Vishwas: Now, when I look at it, I've got int64.
+
+478
+00:40:15.080 --> 00:40:17.500
+Vishwas: Okay? Int64.
+
+479
+00:40:19.800 --> 00:40:23.810
+Vishwas: Okay, now, what does the 64 represent? 64 represents…
+
+480
+00:40:24.050 --> 00:40:28.540
+Vishwas: How many number of bits you are using to represent a particular number.
+
+481
+00:40:30.190 --> 00:40:35.189
+Vishwas: just like this, in 64, I can have int32, int16, like that.
+
+482
+00:40:36.830 --> 00:40:37.770
+Vishwas: Okay.
+
+483
+00:40:39.090 --> 00:40:44.379
+Vishwas: So, based on the… it boils down to the level of…
+
+484
+00:40:45.330 --> 00:40:49.539
+Vishwas: I would say, precision that you want, while representing the value.
+
+485
+00:40:49.900 --> 00:40:50.990
+Vishwas: Okay.
+
+486
+00:40:51.730 --> 00:40:55.760
+Vishwas: So, ARR.D type will give me what is the type of address.
+
+487
+00:40:56.470 --> 00:41:07.540
+Vishwas: Okay, now, observe here, what I'll do. I'll say error 1 is equal to… Yeah, huh?
+
+488
+00:41:10.360 --> 00:41:11.230
+Vishwas: dot.
+
+489
+00:41:16.680 --> 00:41:17.770
+Vishwas: As time.
+
+490
+00:41:19.530 --> 00:41:21.250
+Vishwas: Okay? As time.
+
+491
+00:41:21.640 --> 00:41:25.150
+Vishwas: I want to convert that to a floating point values.
+
+492
+00:41:25.270 --> 00:41:26.579
+Vishwas: I will say yes.
+
+493
+00:41:28.670 --> 00:41:30.170
+Vishwas: Okay, our friend.
+
+494
+00:41:30.670 --> 00:41:32.870
+Vishwas: PRR1.T type.
+
+495
+00:41:35.060 --> 00:41:37.150
+Vishwas: I got load 32.
+
+496
+00:41:41.830 --> 00:41:48.809
+Vishwas: Okay? So, I can convert the data type of the elements which are there.
+
+497
+00:41:50.390 --> 00:41:53.899
+Vishwas: Let's say I want it as strings. List of…
+
+498
+00:41:54.700 --> 00:41:58.440
+Vishwas: characters. So, I'll say, yeah, 2.
+
+499
+00:42:00.880 --> 00:42:05.190
+Vishwas: is equal to kara dot… Skype?
+
+500
+00:42:09.120 --> 00:42:11.320
+Vishwas: I want it as a string.
+
+501
+00:42:12.750 --> 00:42:18.119
+Vishwas: So I'll say S, And let me print ARR2.d type.
+
+502
+00:42:20.730 --> 00:42:24.230
+Vishwas: is this, and let me print ERR2.
+
+503
+00:42:32.290 --> 00:42:35.330
+Vishwas: So it does… The strings that we have.
+
+504
+00:42:40.460 --> 00:42:51.669
+Vishwas: Okay, so like this, I can convert the elements data type, which are there in the NumPy array, using the as type. Okay, or you can directly convert
+
+505
+00:42:52.070 --> 00:42:54.999
+Vishwas: Okay, by setting the D-type value.
+
+506
+00:42:55.810 --> 00:42:59.300
+Vishwas: Let's say I want, while creating itself.
+
+507
+00:43:00.390 --> 00:43:04.030
+Vishwas: Okay, I'll take this code. You have seen this.
+
+508
+00:43:04.720 --> 00:43:05.430
+Vishwas: Huh.
+
+509
+00:43:05.930 --> 00:43:10.200
+Vishwas: So here, I'm creating a 123456 like this, right?
+
+510
+00:43:10.780 --> 00:43:13.360
+Vishwas: So, the seam I'll take.
+
+511
+00:43:15.040 --> 00:43:18.700
+Vishwas: And while creating, I can pass this deal type.
+
+512
+00:43:21.010 --> 00:43:24.560
+Vishwas: and say I want it as a floating point value.
+
+513
+00:43:29.500 --> 00:43:31.420
+Vishwas: print tiara.
+
+514
+00:43:31.680 --> 00:43:33.440
+Vishwas: type, print.
+
+515
+00:43:34.310 --> 00:43:35.390
+Vishwas: Yara?
+
+516
+00:43:38.580 --> 00:43:44.109
+Vishwas: And doing that… So, while creating itself, I can convert it.
+
+517
+00:43:44.230 --> 00:43:50.090
+Vishwas: Okay, so these are the two ways by which I can get to different data types.
+
+518
+00:43:51.100 --> 00:43:52.550
+Vishwas: of my elements.
+
+519
+00:43:57.880 --> 00:43:58.800
+Vishwas: Okay?
+
+520
+00:44:08.300 --> 00:44:12.519
+Vishwas: Alright, so… When we have this, …
+
+521
+00:44:12.790 --> 00:44:19.980
+Vishwas: like, let's say RR1 is equal to NP dot… Ari?
+
+522
+00:44:26.390 --> 00:44:27.890
+Vishwas: np.array.
+
+523
+00:44:29.890 --> 00:44:36.190
+Vishwas: Let's say 1, 2, 3, 4… AR2.
+
+524
+00:44:36.310 --> 00:44:39.990
+Vishwas: is equal to NP dot… Ari?
+
+525
+00:44:43.420 --> 00:44:46.000
+Vishwas: 5, 6, 7, 8.
+
+526
+00:44:46.690 --> 00:44:47.700
+Vishwas: Okay?
+
+527
+00:44:48.240 --> 00:44:50.339
+Vishwas: And we want to add it.
+
+528
+00:44:50.470 --> 00:44:56.510
+Vishwas: Okay, yeah, not… 3 is equal to… They are fun.
+
+529
+00:44:56.690 --> 00:44:58.739
+Vishwas: Let's hear a tube.
+
+530
+00:45:00.080 --> 00:45:01.219
+Vishwas: Now, Ben?
+
+531
+00:45:03.090 --> 00:45:05.060
+Vishwas: ARR3.
+
+532
+00:45:08.310 --> 00:45:11.260
+Vishwas: Okay, so this is how we can add the elements.
+
+533
+00:45:12.830 --> 00:45:15.730
+Vishwas: Okay, add the… Two elements.
+
+534
+00:45:16.930 --> 00:45:18.040
+Vishwas: to Aries.
+
+535
+00:45:20.260 --> 00:45:24.970
+Vishwas: Okay, so similarly, Let's say we want to join these two.
+
+536
+00:45:25.320 --> 00:45:33.420
+Vishwas: Okay, so we can do… Yeah, … 4 is equal to… And, …
+
+537
+00:45:34.840 --> 00:45:40.850
+Vishwas: Let me see… in B dot… concatenate.
+
+538
+00:45:43.960 --> 00:45:45.369
+Vishwas: Here are R1.
+
+539
+00:45:48.960 --> 00:45:51.849
+Vishwas: ERR1, comma, ERR2.
+
+540
+00:45:52.550 --> 00:45:58.070
+Vishwas: And I can give… And this will join those two.
+
+541
+00:46:03.230 --> 00:46:04.820
+Vishwas: Okay, side by side.
+
+542
+00:46:05.330 --> 00:46:09.250
+Vishwas: Now, what if I want to join it from top and bottom like this?
+
+543
+00:46:09.790 --> 00:46:15.809
+Vishwas: Okay, so I want row 1 as 1234. Row 2 as 5, 6, 7, 8.
+
+544
+00:46:16.190 --> 00:46:17.940
+Vishwas: Yes, we have that.
+
+545
+00:46:18.760 --> 00:46:24.600
+Vishwas: I can say ARR5 is equal to… NP dot.
+
+546
+00:46:24.900 --> 00:46:25.910
+Vishwas: stack.
+
+547
+00:46:28.080 --> 00:46:32.220
+Vishwas: stack ERR1, ERR2, and accesses 4.
+
+548
+00:46:35.340 --> 00:46:39.620
+Vishwas: Will not give this access system, so let's see.
+
+549
+00:46:42.630 --> 00:46:48.119
+Vishwas: So, stack. Once… Below that, I can stack it like this.
+
+550
+00:46:49.040 --> 00:46:56.239
+Vishwas: Okay, so we have different, different things for manipulating the arrays and all, so you can try that out.
+
+551
+00:46:58.900 --> 00:47:01.479
+Vishwas: Okay, so shall we move forward?
+
+552
+00:47:02.130 --> 00:47:05.420
+Vishwas: Shall we move and look at the next?
+
+553
+00:47:08.300 --> 00:47:12.280
+Vishwas: Okay, just few questions I'll answer, just, yes?
+
+554
+00:47:12.420 --> 00:47:15.690
+Vishwas: Can you please print 6?
+
+555
+00:47:16.680 --> 00:47:21.920
+Vishwas: Print 6, okay? Does addition work for multidimensional arrays also? Yes.
+
+556
+00:47:22.040 --> 00:47:24.590
+Vishwas: It will work for multidimensional arrays.
+
+557
+00:47:26.410 --> 00:47:30.649
+Vishwas: They have the… they have to be of the same size area, yes.
+
+558
+00:47:30.790 --> 00:47:35.690
+Vishwas: They have to be, unless you're adding a set of values to all the elements, yes, okay? Yeah.
+
+559
+00:47:36.350 --> 00:47:44.090
+Vishwas: So… Like this. Okay, so in here, let's say you were asking how to print 6?
+
+560
+00:47:46.900 --> 00:47:49.849
+Vishwas: Okay, here, if I wanted to print 6,
+
+561
+00:47:54.210 --> 00:47:54.870
+Vishwas: Yeah.
+
+562
+00:47:56.070 --> 00:47:57.939
+Vishwas: I will say print.
+
+563
+00:48:05.130 --> 00:48:10.080
+Vishwas: So, yeah… Yeah, I would say?
+
+564
+00:48:11.140 --> 00:48:12.530
+Vishwas: 1, comma, two.
+
+565
+00:48:13.370 --> 00:48:17.069
+Vishwas: This would actually print the 6. 0, 1, 2, yeah.
+
+566
+00:48:17.860 --> 00:48:22.470
+Vishwas: Okay, so this is how you can print the 6 here, okay?
+
+567
+00:48:24.380 --> 00:48:25.170
+Vishwas: No.
+
+568
+00:48:25.800 --> 00:48:30.839
+Vishwas: So, this was modifying the, or manipulating.
+
+569
+00:48:31.030 --> 00:48:36.510
+Vishwas: the arrays. Okay, so you can, get the sum, all those things you can do.
+
+570
+00:48:37.550 --> 00:48:46.790
+Vishwas: Okay, so next is Pandas. For data science, we have a Python data science library called as Pandas.
+
+571
+00:48:46.910 --> 00:48:50.969
+Vishwas: How do I install it, all those things? Yes, the same things.
+
+572
+00:48:51.400 --> 00:48:53.090
+Vishwas: I can import it.
+
+573
+00:48:55.550 --> 00:48:57.230
+Vishwas: Panda says AD.
+
+574
+00:48:57.610 --> 00:48:59.030
+Vishwas: PD for short.
+
+575
+00:49:00.160 --> 00:49:06.140
+Vishwas: Pandas has… Two basic data types.
+
+576
+00:49:06.610 --> 00:49:08.780
+Vishwas: Basic data structures.
+
+577
+00:49:09.050 --> 00:49:11.329
+Vishwas: Called as series.
+
+578
+00:49:11.670 --> 00:49:12.560
+Vishwas: And?
+
+579
+00:49:12.690 --> 00:49:13.930
+Vishwas: data free.
+
+580
+00:49:14.940 --> 00:49:16.640
+Vishwas: Now, what is a series?
+
+581
+00:49:17.830 --> 00:49:21.240
+Vishwas: A series is just like a list of values.
+
+582
+00:49:23.050 --> 00:49:25.379
+Vishwas: Okay? But with the label.
+
+583
+00:49:25.930 --> 00:49:29.489
+Vishwas: Okay? It's a list of values, but with a label.
+
+584
+00:49:30.750 --> 00:49:39.870
+Vishwas: Now, let's say if I take… a list, L1 is equal to…
+
+585
+00:49:42.970 --> 00:49:43.750
+Vishwas: One?
+
+586
+00:49:46.140 --> 00:49:47.150
+Vishwas: Bangal.
+
+587
+00:49:51.470 --> 00:49:52.430
+Vishwas: tapes?
+
+588
+00:49:59.410 --> 00:50:00.379
+Vishwas: But no, no.
+
+589
+00:50:00.880 --> 00:50:02.940
+Vishwas: Okay, so we have a list like this.
+
+590
+00:50:03.260 --> 00:50:08.679
+Vishwas: And I want to convert this to a series, so S1 is equal to PD dot.
+
+591
+00:50:09.270 --> 00:50:11.040
+Vishwas: series of L1.
+
+592
+00:50:12.560 --> 00:50:13.760
+Vishwas: And print.
+
+593
+00:50:13.970 --> 00:50:15.020
+Vishwas: S1.
+
+594
+00:50:15.440 --> 00:50:17.609
+Vishwas: So when I do that, I get a…
+
+595
+00:50:17.720 --> 00:50:26.670
+Vishwas: list of values as a series. So, what you have to observe is, here is, we have got the indexes also.
+
+596
+00:50:28.780 --> 00:50:32.549
+Vishwas: Okay, now what if I don't want to have this
+
+597
+00:50:32.950 --> 00:50:37.910
+Vishwas: 0123 index, but I want to have my own list.
+
+598
+00:50:38.630 --> 00:50:41.319
+Vishwas: Okay, my own list as indexes.
+
+599
+00:50:42.280 --> 00:50:43.969
+Vishwas: I'll use the scene code.
+
+600
+00:50:46.160 --> 00:50:48.090
+Vishwas: Okay, I'll use the same word.
+
+601
+00:50:49.000 --> 00:50:57.649
+Vishwas: Now, I'll say… labels… Labels is equal to…
+
+602
+00:50:58.970 --> 00:51:01.019
+Vishwas: A, B, C, D, like the sun is.
+
+603
+00:51:01.760 --> 00:51:04.920
+Vishwas: Now, in here… I'll see.
+
+604
+00:51:06.510 --> 00:51:07.690
+Vishwas: Index.
+
+605
+00:51:08.800 --> 00:51:12.859
+Vishwas: Index equal to… labels I'll give.
+
+606
+00:51:16.090 --> 00:51:21.379
+Vishwas: Okay, so now when I do that… I could see that ABCD.
+
+607
+00:51:21.570 --> 00:51:23.470
+Vishwas: Are the labels of mine.
+
+608
+00:51:25.060 --> 00:51:32.410
+Vishwas: List of values… Okay, so this is a series data type.
+
+609
+00:51:34.180 --> 00:51:35.779
+Vishwas: Any questions here?
+
+610
+00:51:35.900 --> 00:51:37.190
+Vishwas: Please let me know.
+
+611
+00:51:38.730 --> 00:51:41.309
+Vishwas: If no questions, can I get a no in the chat?
+
+612
+00:51:47.690 --> 00:51:48.690
+Vishwas: Thank you.
+
+613
+00:51:49.320 --> 00:51:50.170
+Vishwas: alternatives.
+
+614
+00:51:52.070 --> 00:51:52.950
+Vishwas: So?
+
+615
+00:51:55.120 --> 00:51:57.380
+Vishwas: I can create a series like this.
+
+616
+00:51:57.680 --> 00:51:58.600
+Vishwas: No.
+
+617
+00:51:59.770 --> 00:52:09.620
+Vishwas: a data frame, is a two-dimensional, okay? A series is one-dimensional, a data frame is two-dimensional, means it has
+
+618
+00:52:10.300 --> 00:52:11.909
+Vishwas: Rose and goss.
+
+619
+00:52:12.700 --> 00:52:16.360
+Vishwas: Okay, it's a dictionary of less…
+
+620
+00:52:17.340 --> 00:52:24.009
+Vishwas: Okay, you can remember this thumb point, called as a data frame is a dictionary of lists.
+
+621
+00:52:25.630 --> 00:52:32.410
+Vishwas: Okay, so let me say data is equal to… It's a dictionary.
+
+622
+00:52:33.000 --> 00:52:34.750
+Vishwas: let's say in Neil.
+
+623
+00:52:36.650 --> 00:52:40.650
+Vishwas: NEMA, so… Bishops…
+
+624
+00:52:45.770 --> 00:52:49.640
+Vishwas: Alice… No.
+
+625
+00:52:52.790 --> 00:52:53.670
+Vishwas: Gene.
+
+626
+00:52:55.560 --> 00:52:56.380
+Vishwas: Okay.
+
+627
+00:52:56.900 --> 00:53:01.310
+Vishwas: So, let's say… H…
+
+628
+00:53:10.820 --> 00:53:13.350
+Vishwas: will have, and city will have.
+
+629
+00:53:14.920 --> 00:53:17.219
+Vishwas: And we will have subject marks.
+
+630
+00:53:18.460 --> 00:53:21.770
+Vishwas: Okay, so let's take… we have Matt.
+
+631
+00:53:27.720 --> 00:53:29.820
+Vishwas: Some subject marks, let's say.
+
+632
+00:53:29.930 --> 00:53:40.510
+Vishwas: Okay, so we will take some random values, 18, 19… 25… 20s.
+
+633
+00:53:43.000 --> 00:53:47.410
+Vishwas: Okay, and … Physics?
+
+634
+00:53:51.030 --> 00:54:01.980
+Vishwas: Yeah, so… Let's say… Again, 90… 70… threatened… 13?
+
+635
+00:54:06.310 --> 00:54:10.810
+Vishwas: physics, and … Yeah, let's take chemistry.
+
+636
+00:54:19.640 --> 00:54:29.930
+Vishwas: Let's take this as… 19… 20… None.
+
+637
+00:54:31.010 --> 00:54:33.680
+Vishwas: Or let me take an empty string like this.
+
+638
+00:54:34.090 --> 00:54:37.309
+Vishwas: And, 15, 16, yeah.
+
+639
+00:54:40.790 --> 00:54:44.239
+Vishwas: Okay, so now our data is like the subsurf.
+
+640
+00:54:44.420 --> 00:54:47.800
+Vishwas: Okay, so our data dictionary is like this.
+
+641
+00:54:48.530 --> 00:54:51.169
+Vishwas: Now let's convert that to our data frame.
+
+642
+00:54:52.140 --> 00:54:55.050
+Vishwas: So how do we convert that to a data frame?
+
+643
+00:54:57.990 --> 00:54:59.410
+Vishwas: We have to say.
+
+644
+00:54:59.740 --> 00:55:00.760
+Vishwas: DF?
+
+645
+00:55:01.250 --> 00:55:03.129
+Vishwas: Representing data frame.
+
+646
+00:55:03.500 --> 00:55:08.669
+Vishwas: PD.dataFrame is the method, and we'll pass the data to it.
+
+647
+00:55:10.840 --> 00:55:14.000
+Vishwas: Okay, now, when I want to see the…
+
+648
+00:55:14.140 --> 00:55:16.970
+Vishwas: records of it, I can give.
+
+649
+00:55:18.540 --> 00:55:21.030
+Vishwas: DF.head.
+
+650
+00:55:21.610 --> 00:55:25.560
+Vishwas: Head is the method, which will… B…
+
+651
+00:55:25.990 --> 00:55:28.899
+Vishwas: Showing me what is the data which is there.
+
+652
+00:55:30.900 --> 00:55:35.269
+Vishwas: Okay, by default, this takes 5 values.
+
+653
+00:55:35.600 --> 00:55:37.870
+Vishwas: The head function by default.
+
+654
+00:55:38.350 --> 00:55:40.390
+Vishwas: Shows you 5 values.
+
+655
+00:55:41.100 --> 00:55:42.070
+Vishwas: Okay.
+
+656
+00:55:42.300 --> 00:55:44.069
+Vishwas: Pi values from the top.
+
+657
+00:55:44.870 --> 00:55:50.370
+Vishwas: Now, let's say if I want only two values, yes, I can do that by passing the number to it.
+
+658
+00:55:51.120 --> 00:55:53.900
+Vishwas: Okay, I'm seeing two values.
+
+659
+00:55:55.760 --> 00:56:04.560
+Vishwas: So, similar to this, I have a method called as tail, where I can… See the last values.
+
+660
+00:56:05.490 --> 00:56:07.389
+Vishwas: Tale of two, I can say.
+
+661
+00:56:07.760 --> 00:56:10.920
+Vishwas: last two values, if I want to see, I can do that.
+
+662
+00:56:11.440 --> 00:56:19.180
+Vishwas: Okay, again, for the tail also, 5 is the by default, and if I want more number or less number, I can give that.
+
+663
+00:56:21.010 --> 00:56:21.940
+Vishwas: Okay.
+
+664
+00:56:22.580 --> 00:56:28.079
+Vishwas: So, we saw… What is the… Data, which is there.
+
+665
+00:56:28.960 --> 00:56:35.460
+Vishwas: Okay, now… How do I, or where do I use this?
+
+666
+00:56:36.450 --> 00:56:37.430
+Vishwas: Okay.
+
+667
+00:56:37.710 --> 00:56:39.390
+Vishwas: So, this data frame…
+
+668
+00:56:39.510 --> 00:56:48.850
+Vishwas: is, I have created it from the data of dictionaries, okay? So usually, we get some data sets which is available online.
+
+669
+00:56:49.170 --> 00:56:57.619
+Vishwas: So there are many, websites where I can get the data sets. In that, I would suggest you explore this website called us
+
+670
+00:56:57.940 --> 00:56:58.920
+Vishwas: Can I go.
+
+671
+00:57:01.280 --> 00:57:12.279
+Vishwas: Okay, Kaggle.com is the one place where you can find so many datasets pertaining to various domains.
+
+672
+00:57:13.830 --> 00:57:18.330
+Vishwas: Okay? So you can get… data sets off.
+
+673
+00:57:18.490 --> 00:57:26.050
+Vishwas: Various domains. Okay, so when you go to datasets here, You get so many.
+
+674
+00:57:26.470 --> 00:57:34.929
+Vishwas: data sets. Okay, so you can see here, mobile app review data set, student stress monitoring data set, hearing wellness data set.
+
+675
+00:57:35.290 --> 00:57:39.210
+Vishwas: So, okay, so you get so many datasets, which you can use.
+
+676
+00:57:39.580 --> 00:57:41.840
+Vishwas: Okay, so I'll paste that link in the chat.
+
+677
+00:57:45.940 --> 00:57:58.009
+Vishwas: Okay, now, so you get this dataset, movie dataset we have, Hauser and prediction we have. Okay, so we will download it, okay? Let's assume we have downloaded it.
+
+678
+00:57:58.610 --> 00:58:05.210
+Vishwas: Okay, downloaded and extracted it. So, when we download and extract it, Oh.
+
+679
+00:58:13.550 --> 00:58:18.820
+Vishwas: Okay, so when we download and extract it, You can find that.
+
+680
+00:58:21.100 --> 00:58:31.229
+Vishwas: Like this. Can you see here? How's rentprediction.csv is there. Agriculture data analysis, like this. You will have agriculture data set.
+
+681
+00:58:31.510 --> 00:58:38.139
+Vishwas: Somewhere here. It's not here. Okay. So, like this, you will have so many data sets downloaded and extracted it.
+
+682
+00:58:38.290 --> 00:58:42.809
+Vishwas: Okay, so if you want to process that in your Google Collab.
+
+683
+00:58:43.380 --> 00:58:46.560
+Vishwas: Okay, if you want to process that in your Google Collab.
+
+684
+00:58:46.810 --> 00:58:47.950
+Vishwas: You can.
+
+685
+00:58:48.070 --> 00:58:55.199
+Vishwas: Put that on a… drive, okay? You can put that to drive, Google Drive.
+
+686
+00:58:56.390 --> 00:59:01.999
+Vishwas: So, in here, you can connect your Google Drive and read from there. That is also possible.
+
+687
+00:59:02.310 --> 00:59:06.090
+Vishwas: Otherwise, you can upload it to a session storage.
+
+688
+00:59:06.780 --> 00:59:09.249
+Vishwas: Okay, so from here, let's say I want to…
+
+689
+00:59:10.280 --> 00:59:16.739
+Vishwas: add it to the session storage. In the current session, I want to use it. How's rent prediction? Let me rename it.
+
+690
+00:59:18.040 --> 00:59:19.260
+Vishwas: 2000.
+
+691
+00:59:24.510 --> 00:59:25.410
+Vishwas: Okay.
+
+692
+00:59:25.560 --> 00:59:36.859
+Vishwas: So here, what we have done, we have created our own dataset, but here, what we are doing, we are using a CSV file, which we downloaded from the internet.
+
+693
+00:59:37.330 --> 00:59:40.230
+Vishwas: Okay, now we want to load this data.
+
+694
+00:59:41.270 --> 00:59:45.089
+Vishwas: Okay? We want to load this data and see what is there.
+
+695
+00:59:45.650 --> 00:59:55.239
+Vishwas: So, I'll say DF… Or, let me see… How's… trend… DF is equal to…
+
+696
+00:59:56.630 --> 00:59:59.790
+Vishwas: I want to read the CSV file.
+
+697
+01:00:00.480 --> 01:00:05.330
+Vishwas: Okay, reading the CSV file is very easier when you are using Pandas.
+
+698
+01:00:05.650 --> 01:00:09.579
+Vishwas: So I just have to say, read underscore CSV like this.
+
+699
+01:00:09.960 --> 01:00:10.870
+Vishwas: Read?
+
+700
+01:00:11.040 --> 01:00:12.950
+Vishwas: Underscore CSV.
+
+701
+01:00:13.610 --> 01:00:16.220
+Vishwas: And I have to give the path to it.
+
+702
+01:00:16.540 --> 01:00:22.749
+Vishwas: So, the path is, currently, it is there in the session storage, so I'll say houserent.sp.
+
+703
+01:00:26.610 --> 01:00:29.360
+Vishwas: Okay, now I have read that.
+
+704
+01:00:29.860 --> 01:00:31.240
+Vishwas: Okay, house rent?
+
+705
+01:00:31.460 --> 01:00:35.830
+Vishwas: DF, I have read the CSV file, the dataset, I have read it.
+
+706
+01:00:37.380 --> 01:00:40.690
+Vishwas: So, let me… C, what does that.
+
+707
+01:00:40.880 --> 01:00:43.909
+Vishwas: Okay, so, how's rent?
+
+708
+01:00:45.650 --> 01:00:46.590
+Vishwas: The if?
+
+709
+01:00:47.850 --> 01:00:48.630
+Vishwas: Dark?
+
+710
+01:00:49.090 --> 01:00:49.930
+Vishwas: Hey.
+
+711
+01:00:51.600 --> 01:00:54.070
+Vishwas: Okay, so we will do this.
+
+712
+01:00:55.700 --> 01:00:58.760
+Vishwas: And when we load that, so you can observe here, we have…
+
+713
+01:00:58.870 --> 01:01:01.930
+Vishwas: The data of the house rents.
+
+714
+01:01:02.200 --> 01:01:04.180
+Vishwas: So much data we have.
+
+715
+01:01:04.410 --> 01:01:06.870
+Vishwas: And where it tells us the price.
+
+716
+01:01:08.770 --> 01:01:11.629
+Vishwas: Okay, so any questions still here?
+
+717
+01:01:13.340 --> 01:01:15.300
+Vishwas: If no questions, can I get a….
+
+718
+01:01:15.460 --> 01:01:19.989
+Uday Kulkarni: Sir, what type of dataset it accepts, like, only CSV format, or…?
+
+719
+01:01:20.870 --> 01:01:21.680
+Vishwas: No.
+
+720
+01:01:22.490 --> 01:01:37.550
+Vishwas: You can read HTML, you can read a CSV, you can read a JSON, you can read a SQL, any kind of dataset you can do, so I'll show that. Let's say, if I have pd.
+
+721
+01:01:37.850 --> 01:01:38.860
+Vishwas: The reader.
+
+722
+01:01:39.860 --> 01:01:48.690
+Vishwas: And when I say you can observe here, it gives me the options. Clickboard, CSV, Excel, Feather, FWF, so many are there.
+
+723
+01:01:49.630 --> 01:01:50.310
+Uday Kulkarni: Okay.
+
+724
+01:01:50.660 --> 01:01:54.500
+Vishwas: Okay, I can also use a SQL table
+
+725
+01:01:54.650 --> 01:01:57.789
+Vishwas: From the query, all those things are there, okay?
+
+726
+01:01:58.020 --> 01:02:19.410
+Uday Kulkarni: Okay. And, sir, one more question, like, previously, when we created our dataset dict off list, right? So, does it expects the same elements in all, like, now, chemistry, if you see, we have a placeholder null, right? Third, third one. So, if at all, we'll just give a list of three elements only, will it accept? By default, anything is there, or…?
+
+727
+01:02:19.410 --> 01:02:20.830
+Vishwas: I want you to try it out.
+
+728
+01:02:20.830 --> 01:02:22.149
+Uday Kulkarni: Hmm, okay.
+
+729
+01:02:22.360 --> 01:02:27.750
+Vishwas: Okay? I want you to try that out. So, we will take this, and…
+
+730
+01:02:28.110 --> 01:02:31.530
+Vishwas: I want to load this right here. I'll do this.
+
+731
+01:02:33.200 --> 01:02:34.200
+Vishwas: Can you see?
+
+732
+01:02:34.200 --> 01:02:37.630
+Uday Kulkarni: Earlier, okay, same length. Okay, understood.
+
+733
+01:02:38.260 --> 01:02:43.790
+Vishwas: So… I have to have something.
+
+734
+01:02:44.220 --> 01:02:50.139
+Vishwas: I can have none here, or I can have an empty… empty value here.
+
+735
+01:02:52.500 --> 01:02:53.959
+Uday Kulkarni: Okay, but neither same length.
+
+736
+01:02:54.270 --> 01:02:54.940
+Vishwas: Huh.
+
+737
+01:02:55.440 --> 01:02:58.010
+Uday Kulkarni: Okay, okay, understand, sir. Yeah, thank you.
+
+738
+01:02:58.470 --> 01:02:58.990
+Vishwas: Yeah.
+
+739
+01:02:59.570 --> 01:03:01.050
+Vishwas: Any other questions?
+
+740
+01:03:01.050 --> 01:03:10.439
+Sonali: One more question. How to use the clipboard as the dataset here? So, we need some, cut and paste, right?
+
+741
+01:03:10.860 --> 01:03:15.150
+Vishwas: Huh, huh. Let's say we have copied that CSV file.
+
+742
+01:03:15.270 --> 01:03:18.430
+Vishwas: To my clipboard, and we can use that.
+
+743
+01:03:20.410 --> 01:03:21.080
+Sonali: Oh, okay.
+
+744
+01:03:21.080 --> 01:03:21.470
+Vishwas: Okay.
+
+745
+01:03:21.470 --> 01:03:29.320
+Sonali: Okay. Any chance, if you could get some kind of sample later also, you can post in the discussion board? It will be helpful for us.
+
+746
+01:03:29.320 --> 01:03:32.839
+Vishwas: Huh, huh. I'll try that, and then, ….
+
+747
+01:03:32.840 --> 01:03:33.920
+Sonali: Yeah, thank you.
+
+748
+01:03:36.000 --> 01:03:39.209
+Vishwas: Let me just mark it, just a moment.
+
+749
+01:03:46.640 --> 01:03:47.830
+Vishwas: Okay, fine.
+
+750
+01:03:49.200 --> 01:03:57.130
+Vishwas: Fine. So, we read this data, okay? So, whenever you read the data from the internet sources, or any other source.
+
+751
+01:03:57.540 --> 01:04:04.009
+Vishwas: The first thing that we need to do is we want to look at whether the data is proper or not.
+
+752
+01:04:04.420 --> 01:04:06.799
+Vishwas: So, there are a few things that we want to check.
+
+753
+01:04:07.280 --> 01:04:10.280
+Vishwas: Okay, so it's called as data preprocessing.
+
+754
+01:04:11.130 --> 01:04:19.389
+Vishwas: Okay, so what is that that we need to check? First one, are there any empty values? Are there any null values?
+
+755
+01:04:19.730 --> 01:04:21.050
+Vishwas: in my data.
+
+756
+01:04:21.340 --> 01:04:25.389
+Vishwas: Second one, if there are null values, what should be?
+
+757
+01:04:25.500 --> 01:04:31.999
+Vishwas: put… If it is a numeric value, we have to put it as 0. If it is a, …
+
+758
+01:04:32.950 --> 01:04:39.799
+Vishwas: Some string, kind of a column, then we would have to put any or something else that we would want to put.
+
+759
+01:04:40.190 --> 01:04:44.210
+Vishwas: Okay, so like that, we need to decide, and we want to claim that.
+
+760
+01:04:44.370 --> 01:05:01.059
+Vishwas: Okay, so to find out that, if I want to find it column by column, okay, so now I have two… two data frames, okay, in my session here currently, I have two data frames. One is called as DF, which we loaded by our own.
+
+761
+01:05:01.390 --> 01:05:15.860
+Vishwas: And the second one is this house rents one. Okay, so since I have already worked with house rents one, I know that it is a clean dataset, okay? I have already cleaned that and saved it, so it is a clean data set, which is there.
+
+762
+01:05:16.260 --> 01:05:24.509
+Vishwas: Okay, but if we don't have the clean data set, we have this, like, this data, which is there, so I'll be using this DF.
+
+763
+01:05:24.640 --> 01:05:25.560
+Vishwas: Okay.
+
+764
+01:05:26.000 --> 01:05:33.119
+Vishwas: Now, if I want to see, are there any null values, I can say tf.
+
+765
+01:05:33.520 --> 01:05:35.720
+Vishwas: is NE?
+
+766
+01:05:37.360 --> 01:05:39.100
+Vishwas: is any.
+
+767
+01:05:41.020 --> 01:05:41.930
+Vishwas: Doc?
+
+768
+01:05:42.100 --> 01:05:43.030
+Vishwas: song.
+
+769
+01:05:46.110 --> 01:05:48.310
+Vishwas: Okay? I'll try to print that.
+
+770
+01:05:50.160 --> 01:05:53.430
+Vishwas: Now, when I observe this, can you see?
+
+771
+01:05:54.320 --> 01:05:59.520
+Vishwas: In a whole of my dataset, okay, in the whole of my dataset.
+
+772
+01:05:59.860 --> 01:06:04.500
+Vishwas: Well, I'm checking is any, if any particular cell value is any.
+
+773
+01:06:04.770 --> 01:06:09.300
+Vishwas: Get how many are there, such… such values, how many are there?
+
+774
+01:06:09.800 --> 01:06:20.979
+Vishwas: So, when I see that, in the name value, I don't have anything. Age value, no. City, no. Maths, no. Physics, no. But in chemistry, I have one value, which is NA.
+
+775
+01:06:21.390 --> 01:06:24.669
+Vishwas: Which is not a number or a empty value.
+
+776
+01:06:27.570 --> 01:06:32.450
+Vishwas: Okay, so this is how you can see in an overall picture.
+
+777
+01:06:32.780 --> 01:06:38.050
+Vishwas: Now, if I want to see for a particular column, yes, I can do that.
+
+778
+01:06:38.370 --> 01:06:42.850
+Vishwas: So, I'll say… DF?
+
+779
+01:06:44.430 --> 01:06:45.830
+Vishwas: Square bracket.
+
+780
+01:06:46.570 --> 01:06:47.880
+Vishwas: I'll say…
+
+781
+01:06:52.150 --> 01:06:54.599
+Vishwas: I'll take the name column.
+
+782
+01:06:55.380 --> 01:06:58.560
+Vishwas: In that is… Any?
+
+783
+01:06:59.340 --> 01:07:01.440
+Vishwas: In that, get the counter.
+
+784
+01:07:06.730 --> 01:07:11.580
+Vishwas: Okay? So far… the column of… Name?
+
+785
+01:07:12.530 --> 01:07:17.490
+Vishwas: there are no null values. Similarly, if I put here chemistry.
+
+786
+01:07:21.610 --> 01:07:24.830
+Vishwas: I can see it has one null value.
+
+787
+01:07:27.870 --> 01:07:29.310
+Vishwas: Okay, so?
+
+788
+01:07:29.890 --> 01:07:37.490
+Vishwas: There are two ways that we can find out if there are any null values using this Okay, now…
+
+789
+01:07:37.590 --> 01:07:44.130
+Vishwas: When you look at a NA value, there are two options. Do you want to drop it
+
+790
+01:07:44.410 --> 01:07:47.129
+Vishwas: Or do you want to fill it with something else?
+
+791
+01:07:48.150 --> 01:07:50.789
+Vishwas: Okay, now when I see this column.
+
+792
+01:07:51.220 --> 01:07:59.609
+Vishwas: Okay, when I see this column of chemistry marks, I could see that… It's a numeric column.
+
+793
+01:08:00.310 --> 01:08:03.519
+Vishwas: Okay, and I want to fill that.
+
+794
+01:08:05.140 --> 01:08:09.309
+Vishwas: Okay, I want to fill that Nase with 0.
+
+795
+01:08:11.090 --> 01:08:12.809
+Vishwas: Okay, so I'll say…
+
+796
+01:08:25.689 --> 01:08:26.740
+Vishwas: DF?
+
+797
+01:08:28.510 --> 01:08:29.340
+Vishwas: Off.
+
+798
+01:08:29.490 --> 01:08:30.609
+Vishwas: Chemistry?
+
+799
+01:08:35.649 --> 01:08:36.550
+Vishwas: dot.
+
+800
+01:08:36.810 --> 01:08:38.700
+Vishwas: Pill… any.
+
+801
+01:08:39.689 --> 01:08:41.279
+Vishwas: with zero.
+
+802
+01:08:43.479 --> 01:08:51.589
+Vishwas: Okay, now, when I'm filling… enabled 0, I have two options. I can assign it to a new
+
+803
+01:08:51.790 --> 01:08:58.629
+Vishwas: data frame, or I can do that in place by saying in place equal to 2.
+
+804
+01:08:58.979 --> 01:09:02.289
+Vishwas: In that current data frame itself, I want to modify it.
+
+805
+01:09:02.630 --> 01:09:04.090
+Vishwas: In place equal to 2.
+
+806
+01:09:07.290 --> 01:09:15.109
+Vishwas: Okay, so… Okay, so you get an error… a warning, okay, just a warning here.
+
+807
+01:09:15.529 --> 01:09:18.409
+Vishwas: So, let me just print that.
+
+808
+01:09:19.240 --> 01:09:20.300
+Vishwas: Brent.
+
+809
+01:09:20.689 --> 01:09:21.660
+Vishwas: EF?
+
+810
+01:09:25.729 --> 01:09:27.580
+Vishwas: Okay, so now you can observe.
+
+811
+01:09:28.000 --> 01:09:35.070
+Vishwas: The DF has been replaced wherever this NA was there in the chemistry column. It has…
+
+812
+01:09:36.479 --> 01:09:39.280
+Vishwas: Put zero in that place.
+
+813
+01:09:40.439 --> 01:09:45.389
+Vishwas: Okay, so this is how you can clean your data. Either you can drop it.
+
+814
+01:09:45.510 --> 01:09:48.539
+Vishwas: Or, you can fill it with something else.
+
+815
+01:09:51.220 --> 01:09:54.730
+Vishwas: Now, when you drop it, you have to be very careful.
+
+816
+01:09:56.260 --> 01:10:02.039
+Vishwas: Okay? When you drop it, you have to be very careful, because you're removing a record.
+
+817
+01:10:02.410 --> 01:10:09.740
+Vishwas: Okay, so if you have a… I'll show you this. I'll show you this example.
+
+818
+01:10:16.590 --> 01:10:17.310
+Vishwas: Okay.
+
+819
+01:10:18.050 --> 01:10:25.030
+Vishwas: So, in here, if you have a dataset, okay, let's say you have, a data set.
+
+820
+01:10:25.330 --> 01:10:26.910
+Vishwas: CSV like this.
+
+821
+01:10:28.900 --> 01:10:32.100
+Vishwas: Okay, let me have some columns.
+
+822
+01:10:33.850 --> 01:10:36.770
+Vishwas: And… Let me have some rules.
+
+823
+01:10:38.050 --> 01:10:43.279
+Vishwas: Okay, I have… 4 columns, 3 rows, 4 columns.
+
+824
+01:10:43.400 --> 01:10:48.100
+Vishwas: Okay, in that, let's say here some value is there, 23.
+
+825
+01:10:48.550 --> 01:10:49.880
+Vishwas: 25.
+
+826
+01:10:50.980 --> 01:10:53.549
+Vishwas: And, 26.
+
+827
+01:10:55.510 --> 01:10:56.770
+Vishwas: 21?
+
+828
+01:10:57.630 --> 01:10:58.920
+Vishwas: 22?
+
+829
+01:11:00.600 --> 01:11:01.800
+Vishwas: 23.
+
+830
+01:11:02.390 --> 01:11:05.390
+Vishwas: And… 20th?
+
+831
+01:11:06.100 --> 01:11:07.290
+Vishwas: 19.
+
+832
+01:11:07.730 --> 01:11:08.630
+Vishwas: 18.
+
+833
+01:11:10.240 --> 01:11:17.750
+Vishwas: Okay, you have a dataset like this, and you have NAN, not a number N-A-N.
+
+834
+01:11:18.060 --> 01:11:23.860
+Vishwas: N-A-N. Okay, not a number is there. Or basically, some empty, it is there.
+
+835
+01:11:24.270 --> 01:11:31.009
+Vishwas: Okay, so in this case, If you use a drop NA, okay, if this is BF,
+
+836
+01:11:31.290 --> 01:11:34.640
+Vishwas: And you use the F.DropNe.
+
+837
+01:11:37.280 --> 01:11:38.909
+Vishwas: What will happen?
+
+838
+01:11:41.520 --> 01:11:44.900
+Vishwas: Okay, the whole data set gets clear.
+
+839
+01:11:46.460 --> 01:11:49.889
+Vishwas: Whole data frame is clear.
+
+840
+01:11:52.310 --> 01:12:01.460
+Vishwas: Because what you said, you said, wherever you find NAs, drop that rows, you said, okay? So, and it found…
+
+841
+01:12:01.710 --> 01:12:06.749
+Vishwas: NA is in this row, it found NA in this row, and it found NA in this row.
+
+842
+01:12:07.130 --> 01:12:09.979
+Vishwas: Okay, all the three rows, it dropped.
+
+843
+01:12:12.340 --> 01:12:17.129
+Vishwas: Okay, so that's why you have to be very careful when you say drop any.
+
+844
+01:12:17.430 --> 01:12:19.659
+Vishwas: Okay, because you are losing the data.
+
+845
+01:12:21.720 --> 01:12:24.209
+Vishwas: I hope this is clear with you all.
+
+846
+01:12:25.680 --> 01:12:27.930
+Vishwas: If yes, can I get a yes in the chat?
+
+847
+01:12:36.860 --> 01:12:38.650
+Vishwas: Okay, okay, thank you.
+
+848
+01:12:44.560 --> 01:12:45.420
+Vishwas: Yes.
+
+849
+01:12:46.270 --> 01:12:47.090
+Vishwas: Yes.
+
+850
+01:12:49.170 --> 01:12:50.780
+Vishwas: Don't try to do that.
+
+851
+01:13:08.410 --> 01:13:11.870
+Vishwas: Okay, so… We can use.
+
+852
+01:13:12.140 --> 01:13:20.450
+Vishwas: fill any, or drop any, to… Clear the… … Things.
+
+853
+01:13:21.040 --> 01:13:24.500
+Vishwas: Okay, to prepare our data set, that's… we saw.
+
+854
+01:13:24.990 --> 01:13:29.499
+Vishwas: Next is… We want to do some analysis for this.
+
+855
+01:13:30.710 --> 01:13:39.200
+Vishwas: Okay, so whenever we see some data set, we would want to see how many records are there, what is the, …
+
+856
+01:13:39.400 --> 01:13:42.700
+Vishwas: Maximum value? What is the minimum value?
+
+857
+01:13:43.410 --> 01:13:46.710
+Vishwas: Alright, so what is the, like, average value
+
+858
+01:13:47.010 --> 01:13:51.300
+Vishwas: All these questions are, like, general questions that we would want.
+
+859
+01:13:51.480 --> 01:14:02.609
+Vishwas: Okay, now doing that for every… each and every column is quite time-consuming, okay? But… Pandas gives you
+
+860
+01:14:03.520 --> 01:14:11.730
+Vishwas: a way to do that. Okay, let's say if I do df.info, Okay, I'll do VF.info.
+
+861
+01:14:13.330 --> 01:14:17.929
+Vishwas: So, the first thing is info. Make a note of this method called as info.
+
+862
+01:14:18.630 --> 01:14:20.539
+Vishwas: This info will tell me.
+
+863
+01:14:21.530 --> 01:14:23.460
+Vishwas: What is the… my…
+
+864
+01:14:23.700 --> 01:14:30.019
+Vishwas: data set all about? What is the kind of objects that we have? What is the data type of it?
+
+865
+01:14:31.040 --> 01:14:34.190
+Vishwas: And what is the size? All those things you get. Info.
+
+866
+01:14:35.040 --> 01:14:36.790
+Vishwas: Okay, done.
+
+867
+01:14:37.450 --> 01:14:43.089
+Vishwas: Maximum value, minimum value, count, all those things that we want. I'll say, do you have thought.
+
+868
+01:14:43.510 --> 01:14:44.750
+Vishwas: described.
+
+869
+01:14:48.550 --> 01:14:51.290
+Vishwas: Okay? TF.describe.
+
+870
+01:14:51.890 --> 01:14:55.380
+Vishwas: Now, when we use this df.describe.
+
+871
+01:14:55.600 --> 01:14:58.920
+Vishwas: or any data frame.describe, you can see that
+
+872
+01:14:59.040 --> 01:15:11.100
+Vishwas: For the numeric columns, it will tell you what is the count of it, what is the mean value of it, what is the standard deviation, what is the minimum value, what is the maximum value.
+
+873
+01:15:12.330 --> 01:15:22.949
+Vishwas: Okay, so all this information it gives you. And how is the distribution of it? Like, what is the 25th percentile, 50th percentile, 75th percentile?
+
+874
+01:15:23.240 --> 01:15:30.920
+Vishwas: Okay, so… If I do this same for my house rent DF, okay?
+
+875
+01:15:31.070 --> 01:15:35.619
+Vishwas: I'll just… Plenty of… darkest night.
+
+876
+01:15:39.980 --> 01:15:43.120
+Vishwas: Okay, so what I'm getting here…
+
+877
+01:15:43.420 --> 01:15:55.340
+Vishwas: I am… with just one command, I am getting this information about what is the minimum, what is the maximum. I'm not doing it specifically, but I'm getting this directly.
+
+878
+01:15:56.970 --> 01:16:00.770
+Vishwas: Okay, so this is called as a descriptive analysis.
+
+879
+01:16:01.410 --> 01:16:03.800
+Vishwas: Okay? Descriptive analysis.
+
+880
+01:16:03.960 --> 01:16:08.949
+Vishwas: And this is one part of exploratory data analysis.
+
+881
+01:16:09.890 --> 01:16:12.859
+Vishwas: Okay, so we are exploring the data.
+
+882
+01:16:13.200 --> 01:16:20.260
+Vishwas: Okay, we are looking at how is the data, what is the variations, all those things, right? So, it's a part of…
+
+883
+01:16:21.460 --> 01:16:38.019
+Vishwas: exploratory data analysis, it is called as descriptive analysis. With just one command, I'm able to see its count, mean, standard deviation, minimum, maximum, and 58th percentile, 75th percentile, all those things.
+
+884
+01:16:40.090 --> 01:16:43.369
+Vishwas: Okay? So, is this clear with you all?
+
+885
+01:16:45.030 --> 01:16:47.649
+Vishwas: If yes, can I get a yes in the chat?
+
+886
+01:16:48.350 --> 01:16:54.040
+Uday Kulkarni: Sir, with the describe, can we, get a specific only, like, count or anything, or meal?
+
+887
+01:16:55.470 --> 01:16:56.470
+Vishwas: No.
+
+888
+01:16:57.070 --> 01:17:01.010
+Uday Kulkarni: Okay. With Describe, you get the whole summary.
+
+889
+01:17:01.580 --> 01:17:02.230
+Uday Kulkarni: Okay.
+
+890
+01:17:03.170 --> 01:17:07.289
+Vishwas: So, if you want specific count, yes, you can do the count separation.
+
+891
+01:17:08.960 --> 01:17:10.130
+Vishwas: Okay.
+
+892
+01:17:10.130 --> 01:17:10.760
+Uday Kulkarni: Okay.
+
+893
+01:17:14.080 --> 01:17:15.429
+Vishwas: So, let's say how?
+
+894
+01:17:17.380 --> 01:17:20.280
+Vishwas: event… the year.
+
+895
+01:17:20.940 --> 01:17:21.810
+Vishwas: Darth?
+
+896
+01:17:22.950 --> 01:17:24.650
+Vishwas: How's rentier for?
+
+897
+01:17:25.270 --> 01:17:29.379
+Vishwas: let's say I want, … I'll beef.
+
+898
+01:17:29.850 --> 01:17:32.389
+Vishwas: And I want to count it.
+
+899
+01:17:32.650 --> 01:17:33.510
+Vishwas: count.
+
+900
+01:17:33.630 --> 01:17:34.420
+Vishwas: Else.
+
+901
+01:17:37.850 --> 01:17:40.259
+Vishwas: Okay, so directly I can get this.
+
+902
+01:17:41.460 --> 01:17:44.220
+Vishwas: Okay, describe is… gives you a whole picture.
+
+903
+01:17:44.690 --> 01:17:49.759
+Vishwas: And, with specific comments, yes, you can get that commission.
+
+904
+01:17:50.050 --> 01:17:50.670
+Uday Kulkarni: Okay.
+
+905
+01:17:51.640 --> 01:17:52.250
+Vishwas: Correct.
+
+906
+01:17:52.750 --> 01:17:57.700
+Vishwas: So, any other questions, doubts? I hope I cleared your doubt, Nishan.
+
+907
+01:18:03.320 --> 01:18:04.090
+Vishwas: Okay.
+
+908
+01:18:10.580 --> 01:18:20.780
+Vishwas: So, we saw… this, house rents. Okay, so here, Seeing the values is fine.
+
+909
+01:18:21.360 --> 01:18:26.620
+Vishwas: Okay, I want to see… I'll just do a few things here now.
+
+910
+01:18:27.610 --> 01:18:38.990
+Vishwas: what I want, I want a sub… Get the… Average prices.
+
+911
+01:18:42.720 --> 01:18:43.470
+Vishwas: Bye.
+
+912
+01:18:43.800 --> 01:18:44.620
+Vishwas: City.
+
+913
+01:18:45.650 --> 01:18:49.299
+Vishwas: Okay? Get the average prices by city.
+
+914
+01:18:50.660 --> 01:18:56.450
+Vishwas: So, how do I do that? So, in the data frame, Which is house rent.
+
+915
+01:18:56.790 --> 01:18:57.690
+Vishwas: BF?
+
+916
+01:18:59.280 --> 01:19:00.509
+Vishwas: I want to.
+
+917
+01:19:03.290 --> 01:19:04.600
+Vishwas: group, right?
+
+918
+01:19:04.790 --> 01:19:13.680
+Vishwas: Okay? Put those values. I want to group by city, put those values together, And… I want to…
+
+919
+01:19:14.280 --> 01:19:16.579
+Vishwas: Get the price column of it.
+
+920
+01:19:17.180 --> 01:19:21.419
+Vishwas: Okay, I want to sum all those prices and get the average of it.
+
+921
+01:19:22.050 --> 01:19:24.969
+Vishwas: So, I want to group by city.
+
+922
+01:19:27.350 --> 01:19:31.030
+Vishwas: And for that, I want to check the price column.
+
+923
+01:19:32.280 --> 01:19:36.780
+Vishwas: And I want the average of it. Average prices.
+
+924
+01:19:37.090 --> 01:19:38.710
+Vishwas: Okay, by city.
+
+925
+01:19:39.160 --> 01:19:40.730
+Vishwas: So, I'll say, me.
+
+926
+01:19:41.470 --> 01:19:44.260
+Vishwas: Mean is the average, right?
+
+927
+01:19:44.480 --> 01:19:45.350
+Vishwas: So?
+
+928
+01:19:45.690 --> 01:19:47.359
+Vishwas: We can get that.
+
+929
+01:19:53.770 --> 01:19:56.119
+Vishwas: Okay, key error city is not there.
+
+930
+01:19:56.720 --> 01:20:01.370
+Vishwas: So, let us check that. Air build, area, 5 rooms.
+
+931
+01:20:01.560 --> 01:20:04.309
+Vishwas: Okay, okay, sorry, sorry, my bad.
+
+932
+01:20:04.460 --> 01:20:08.040
+Vishwas: Let's say we want to get,
+
+933
+01:20:13.650 --> 01:20:21.469
+Vishwas: Area bedrooms, yeah. Based on the bedrooms, okay, what is the average prices based on the bedrooms we will do?
+
+934
+01:20:22.340 --> 01:20:23.870
+Vishwas: In our dataset.
+
+935
+01:20:25.610 --> 01:20:29.480
+Vishwas: My bad, yeah, based on bedroops.
+
+936
+01:20:31.380 --> 01:20:34.830
+Vishwas: So, again… Based on bedroom, we have to do.
+
+937
+01:20:44.260 --> 01:20:51.120
+Vishwas: Okay, so based on bedroom, we can see, okay, so we have what? For one bedrooms properties.
+
+938
+01:20:51.470 --> 01:21:00.839
+Vishwas: the average price is approximately this. For 2 bedrooms is this. 3 bedrooms is this number, 4 bedrooms is this number, and 5 bedrooms is this number.
+
+939
+01:21:03.690 --> 01:21:13.520
+Vishwas: Okay, now, when I do this… … Average… Price.
+
+940
+01:21:16.110 --> 01:21:17.290
+Vishwas: Right, Omis.
+
+941
+01:21:18.600 --> 01:21:19.949
+Vishwas: Is equal to this.
+
+942
+01:21:20.510 --> 01:21:24.619
+Vishwas: Okay, so when I see this, these numbers are not much, …
+
+943
+01:21:24.880 --> 01:21:29.060
+Vishwas: Not able to visualize it, right? I want to see the difference.
+
+944
+01:21:29.190 --> 01:21:33.350
+Vishwas: So, we have another, library called as matplotlib.
+
+945
+01:21:33.690 --> 01:21:35.570
+Vishwas: Import.
+
+946
+01:21:37.270 --> 01:21:38.770
+Vishwas: plot lip.
+
+947
+01:21:39.110 --> 01:21:41.390
+Vishwas: dot pipe plot as PLT.
+
+948
+01:21:42.840 --> 01:21:51.250
+Vishwas: And… The advantage of Pandas is that I can apply this Matplotlib directly to the Pandas data frames.
+
+949
+01:21:51.650 --> 01:21:57.339
+Vishwas: Okay, I can do that separately also, but I can apply it directly to the data prints.
+
+950
+01:21:57.660 --> 01:22:02.480
+Vishwas: Okay, so now… If I want, I'll say TEST.
+
+951
+01:22:03.380 --> 01:22:08.600
+Vishwas: Or, I'll take average… Price bedrooms.
+
+952
+01:22:08.880 --> 01:22:10.220
+Vishwas: dot log.
+
+953
+01:22:12.010 --> 01:22:16.660
+Vishwas: Okay? Dot, lot. And I want to see the bar graph of it.
+
+954
+01:22:18.850 --> 01:22:27.170
+Vishwas: Okay, so now, with this, I can observe the average prices of bedrooms per plot.
+
+955
+01:22:28.830 --> 01:22:35.320
+Vishwas: Okay, in here, I'm not able to make out the average prices, Differences.
+
+956
+01:22:36.630 --> 01:22:45.850
+Vishwas: Okay, so if I want to change it, yes, I can just directly say, kind as… line.
+
+957
+01:22:50.430 --> 01:23:03.360
+Vishwas: Okay? So, with this, I'm able to properly visualize, okay, for one bedroom, it is approximately this. For six bedrooms, it is approximately this much. And for, …
+
+958
+01:23:03.860 --> 01:23:14.199
+Vishwas: 4 bedrooms, it is approximately this much. And for two and three bedrooms, it is approximately this much. Okay, by this, what I can impla?
+
+959
+01:23:14.940 --> 01:23:21.060
+Vishwas: I can imply that… Renting is… 4 or 5 bedroom.
+
+960
+01:23:21.750 --> 01:23:29.090
+Vishwas: … home, okay? Renting a 4- or 5-bedroom home, is…
+
+961
+01:23:30.090 --> 01:23:36.349
+Vishwas: Having the value approximately equal to of renting the… of one-bedroom home.
+
+962
+01:23:37.490 --> 01:23:46.420
+Vishwas: Okay, and… Renting a 2 or 3… Bedroom homes is much costlier.
+
+963
+01:23:46.840 --> 01:23:50.400
+Vishwas: When compared to renting a 4- or 5-bedroom house.
+
+964
+01:23:52.080 --> 01:23:57.240
+Vishwas: Okay, so like this, I can generate the insights out of my data that I have.
+
+965
+01:23:58.510 --> 01:24:02.600
+Vishwas: Okay, so this is called as exploratory data analysis.
+
+966
+01:24:03.180 --> 01:24:08.200
+Vishwas: What we have done now, till now, is we have seen
+
+967
+01:24:08.320 --> 01:24:12.290
+Vishwas: We have taken a data set, We have explored it.
+
+968
+01:24:12.590 --> 01:24:16.320
+Vishwas: And we have applied a group function and all.
+
+969
+01:24:16.570 --> 01:24:20.900
+Vishwas: And we have seen that, how to visualize that particular data.
+
+970
+01:24:23.680 --> 01:24:25.060
+Vishwas: Okay, so…
+
+971
+01:24:25.340 --> 01:24:33.899
+Vishwas: This is a… this was a very brief of how you can do this exploratory data analysis. Any questions here, please do…
+
+972
+01:24:45.240 --> 01:24:47.980
+Vishwas: If no questions, can I get a no in the chat?
+
+973
+01:24:50.210 --> 01:24:51.770
+Vishwas: Okay, thank you.
+
+974
+01:24:52.720 --> 01:25:07.279
+Uday Kulkarni: Sir, these modules, or whatever we learned today, by, I mean, using in production systems or something, will there be any, performance issues, or do we have to take care anything else with the large datasets?
+
+975
+01:25:07.910 --> 01:25:12.750
+Uday Kulkarni: Doing operations on bigger data sets, in GBs or something like that.
+
+976
+01:25:12.750 --> 01:25:14.229
+Vishwas: Okay, okay, yes.
+
+977
+01:25:14.420 --> 01:25:15.280
+Vishwas: Yes.
+
+978
+01:25:15.610 --> 01:25:16.720
+Vishwas: …
+
+979
+01:25:16.980 --> 01:25:25.309
+Vishwas: There is one bottleneck, okay? So, what Pandas does is… so this Pandas is loading everything into the memory.
+
+980
+01:25:25.690 --> 01:25:31.389
+Vishwas: Okay, so if you have very large data sets, and if you are loading that in the memory.
+
+981
+01:25:31.620 --> 01:25:36.530
+Vishwas: That might be a… like, use, I would say, bottlene.
+
+982
+01:25:37.420 --> 01:25:44.299
+Vishwas: Okay. Now, what you can, what I would suggest is, you can use, if you are reading a CSV file.
+
+983
+01:25:44.650 --> 01:25:49.170
+Vishwas: We have these concepts of generators and iterators.
+
+984
+01:25:49.970 --> 01:26:00.260
+Vishwas: Okay, in Python, we have a concept called as generators and iterators, by the use of which I can optimize the data loading into my memory.
+
+985
+01:26:01.530 --> 01:26:05.069
+Vishwas: Okay? So, read the files with that.
+
+986
+01:26:05.170 --> 01:26:06.629
+Vishwas: Apply this.
+
+987
+01:26:06.770 --> 01:26:14.040
+Vishwas: do the processing, and then generate the plots, all those things you can do as a Python finer.
+
+988
+01:26:14.890 --> 01:26:15.780
+Uday Kulkarni: Okay.
+
+989
+01:26:16.120 --> 01:26:18.480
+Uday Kulkarni: Okay, thanks, sir.
+
+990
+01:26:18.480 --> 01:26:19.170
+Vishwas: Yes.
+
+991
+01:26:20.800 --> 01:26:28.930
+Vishwas: So this Pandas library and this notebook kind of environment is very useful when you are, like, …
+
+992
+01:26:30.610 --> 01:26:41.620
+Vishwas: When you want to show this, insights to your management, or you want to have this overview of it, how is the data, all those things, if you want to do, you go with this approach.
+
+993
+01:26:42.030 --> 01:26:58.799
+Vishwas: Now, if you want to take this to the next level and put it on some website or so, then you would have to do that as a script. In the last week, we have seen that writing the scripts, right? Just like that, copy the same commands to that script, and then you can do those.
+
+994
+01:27:01.080 --> 01:27:01.900
+Vishwas: Okay.
+
+995
+01:27:03.230 --> 01:27:04.119
+Vishwas: All right.
+
+996
+01:27:04.660 --> 01:27:11.600
+Vishwas: So, in today's session, we have seen in brief about the numpy?
+
+997
+01:27:12.100 --> 01:27:13.559
+Vishwas: the pandas?
+
+998
+01:27:14.180 --> 01:27:15.959
+Vishwas: and the matplot clip.
+
+999
+01:27:17.180 --> 01:27:31.009
+Vishwas: Okay, so if you have any specific questions or doubts with these, please do put that in the discussion board, because we were not… due to the time constraint, we were not able to, cover in depth
+
+1000
+01:27:31.100 --> 01:27:37.740
+Vishwas: Okay, so if you have doubts, you can put that in the discussion board. I'll actually answer that.
+
+1001
+01:27:38.090 --> 01:27:39.240
+Media Master - Choon Kit: I wish….
+
+1002
+01:27:39.240 --> 01:27:40.519
+Vishwas: set for today. Yeah.
+
+1003
+01:27:40.520 --> 01:27:53.739
+Media Master - Choon Kit: I want to confirm something about the pen, and that's just on the group by, right? So, if we use the group by, so it can be… also be used to gather the number of records with that particular condition, is that correct?
+
+1004
+01:27:57.320 --> 01:28:08.360
+Vishwas: Not just the number of records, you can apply operations for summing, getting the mean, average, maximum, minimum, all those things you can do.
+
+1005
+01:28:08.770 --> 01:28:09.730
+Media Master - Choon Kit: I see.
+
+1006
+01:28:09.860 --> 01:28:13.810
+Media Master - Choon Kit: Okay, so it's also a different application, and it's kind of white also.
+
+1007
+01:28:14.240 --> 01:28:14.980
+Vishwas: Yes.
+
+1008
+01:28:15.150 --> 01:28:17.020
+Media Master - Choon Kit: Okay, okay, thanks.
+
+1009
+01:28:21.180 --> 01:28:23.730
+Vishwas: Alright, so that's it for today.
+
+1010
+01:28:24.150 --> 01:28:27.819
+Vishwas: We will, meet in the next session.
+
+1011
+01:28:28.260 --> 01:28:29.480
+Vishwas: Same time.
+
+1012
+01:28:29.810 --> 01:28:33.220
+Vishwas: Please provide your, valuable feedbacks.
+
+1013
+01:28:33.590 --> 01:28:34.970
+Vishwas: 1, 2, 5.
+
+1014
+01:28:35.160 --> 01:28:38.579
+Vishwas: If you are providing 1 to 4, please do let us know.
+
+1015
+01:28:40.330 --> 01:28:41.330
+Vishwas: Thank you.
+
+1016
+01:29:05.130 --> 01:29:10.040
+Vishwas: Yes, diff- the difference, lock, location, and dialogue.
+
+1017
+01:29:10.740 --> 01:29:13.930
+Vishwas: Okay, I'll try to put that, …
+
+1018
+01:29:15.860 --> 01:29:20.479
+Vishwas: Could you please put that in the discussion board? I'll, give you the difference there.
+
+1019
+01:29:27.990 --> 01:29:29.040
+Vishwas: Thank you all.
+
+1020
+01:29:41.070 --> 01:29:42.080
+Vishwas: Thank you.
+
+1021
+01:29:42.710 --> 01:29:44.160
+Vishwas: Have a great weekend.
+
+1022
+01:29:47.690 --> 01:29:48.600
+Vishwas: Bye-bye.
+

@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,261,FedEx,Transportation,United States,36390.0,2000,24350.0,27270.0
+2009,280,FedEx,Transportation,United States,38810.0,1030,26380.0,13450.0
+2010,568,FedEx,Transportation,United States,32590.0,-250,24590.0,26850.0
+2011,282,FedEx,Air Courier,United States,38180.0,1313.0,26202.0,28576.0
+2012,270,FedEx,Air Courier,United States,41323.0,1750.0,28452.0,29668.0
+2013,246,FedEx,Air Courier,United States,43860.0,1808.0,31830.0,34298.0
+2014,261,FedEx,Air Courier,United States,45163.0,1670.0,32729.0,39632.0
+2015,223,FedEx,Air Courier,United States,47178.0,2529.0,36108.0,47294.0
+2016,260,FedEx,Air Courier,United States,49500.0,1136.0,37819.0,44644.0
+2017,194,FedEx,Air Courier,United States,57570.0,1905.0,46781.0,52312.0
+2018,155,FedEx,Air Courier,United States,63864.0,4459.0,51851.0,67044.0
+2019,184,FedEx,Transportation,United States,69200.0,3630.0,54464.0,51633.0
+2020,513,FedEx,Transportation,United States,69666.0,-350.0,70014.0,33119.0
+2021,119,FedEx,Transportation,United States,78652.0,3023.0,82793.0,76310.0
+2022,163,FedEx,Transportation,United States,91548.0,5126.0,84108.0,53186.0

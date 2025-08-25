@@ -1,0 +1,6 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,520,Edison,Utilities,Italy,11240.0,860,20520.0,14870.0
+2009,592,Edison,Utilities,Italy,15410.0,480,20860.0,4840.0
+2010,616,Edison,Utilities,Italy,12700.0,340,23460.0,7230.0
+2011,827,Edison,Utilities,Italy,12703.0,343.8,23464.0,6393.0
+2012,1075,Edison,Utilities,Italy,14742.0,-1128.2,20415.0,5942.0

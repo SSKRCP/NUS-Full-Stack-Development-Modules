@@ -1,0 +1,10 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,720,Computer Sciences,IT Software & Services,United States,16060.0,620,15360.0,6900.0
+2009,516,Computer Sciences,IT Software & Services,United States,17110.0,910,15450.0,5260.0
+2010,485,Computer Sciences,IT Software & Services,United States,16000.0,940,16200.0,8060.0
+2011,654,Computer Sciences,IT Software & Services,United States,16161.0,828.0,15756.0,7398.0
+2012,1349,Computer Sciences,IT Software & Services,United States,15965.0,-3913.0,11098.0,4900.0
+2013,913,Computer Sciences,IT Software & Services,United States,15548.0,522.0,11260.0,7456.0
+2014,896,Computer Sciences,IT Software & Services,United States,13234.0,665.0,11226.0,8960.0
+2015,1363,Computer Sciences,IT Software & Services,United States,12593.0,157.0,10653.0,9215.0
+2016,1623,Computer Sciences,IT Software & Services,United States,10132.0,379.0,7989.0,4589.0

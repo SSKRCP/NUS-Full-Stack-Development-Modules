@@ -1,0 +1,11 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2011,1969,Netflix,Retailing,United States,2163.0,160.9,982.0,10818.0
+2014,1647,Netflix,Retailing,United States,4375.0,112.4,5413.0,21811.0
+2015,1477,Netflix,Retailing,United States,5505.0,266.8,7057.0,25549.0
+2016,1093,Netflix,Retailing,United States,7164.0,126.6,11262.0,41073.0
+2017,996,Netflix,Retailing,United States,8831.0,186.7,13587.0,61596.0
+2018,602,Netflix,Retailing,United States,12757.0,670.8,20153.0,141910.0
+2019,431,Netflix,Media,United States,15794.0,1211.0,25974.0,157329.0
+2020,284,Netflix,Media,United States,21403.0,2231.9,35060.0,184652.0
+2021,219,Netflix,Media,United States,24996.0,2761.4,39280.0,242060.0
+2022,241,Netflix,Media,United States,30402.0,5007.0,45331.0,95683.0

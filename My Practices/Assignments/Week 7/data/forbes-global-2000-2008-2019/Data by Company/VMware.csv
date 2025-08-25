@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1566,VMware,IT Software & Services,United States,1330.0,220,2700.0,22470.0
+2009,1421,VMware,IT Software & Services,United States,1880.0,290,3840.0,8110.0
+2010,1402,VMware,IT Software & Services,United States,2020.0,200,5070.0,20250.0
+2011,1261,VMware,IT Software & Services,United States,2857.0,357.4,6797.0,34725.0
+2012,984,VMware,IT Software & Services,United States,3767.0,723.9,8681.0,45532.0
+2013,879,VMware,IT Software & Services,United States,4605.0,746.0,10596.0,35945.0
+2014,784,VMware,IT Software & Services,United States,5207.0,1013.7,12327.0,48161.0
+2015,761,VMware,IT Software & Services,United States,6035.0,886.0,15216.0,35663.0
+2016,704,VMware,IT Software & Services,United States,6726.0,962.0,15836.0,24724.0
+2017,645,VMware,IT Software & Services,United States,7092.0,1186.0,16643.0,37786.0
+2018,780,VMware,IT Software & Services,United States,7921.0,569.0,20693.0,58378.0
+2019,598,VMware,IT Software & Services,United States,8973.0,2422.0,14662.0,77200.0
+2020,403,VMware,IT Software & Services,United States,10234.0,6373.0,26294.0,54977.0
+2021,383,VMware,IT Software & Services,United States,11767.0,2058.0,29016.0,68757.0
+2022,533,VMware,IT Software & Services,United States,12851.0,1820.0,28676.0,45550.0

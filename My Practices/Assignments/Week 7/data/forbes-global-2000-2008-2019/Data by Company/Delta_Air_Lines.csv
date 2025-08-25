@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1014,Delta Air Lines,Transportation,United States,19150.0,#VALUE!,32420.0,3900.0
+2009,775,Delta Air Lines,Transportation,United States,22700.0,-8920,45010.0,3510.0
+2010,627,Delta Air Lines,Transportation,United States,28060.0,-1240,43540.0,10340.0
+2011,470,Delta Air Lines,Airline,United States,31755.0,593.0,43188.0,9375.0
+2012,473,Delta Air Lines,Airline,United States,35115.0,854.0,43499.0,7787.0
+2013,361,Delta Air Lines,Airline,United States,36670.0,1010.0,44550.0,13625.0
+2014,166,Delta Air Lines,Airline,United States,37659.0,10540.0,59394.0,30365.0
+2015,338,Delta Air Lines,Airline,United States,40315.0,659.0,54121.0,34422.0
+2016,170,Delta Air Lines,Airline,United States,40474.0,4726.0,53342.0,34428.0
+2017,183,Delta Air Lines,Airline,United States,39605.0,4373.0,58899.0,33009.0
+2018,224,Delta Air Lines,Airline,United States,42057.0,3521.0,54078.0,37108.0
+2019,203,Delta Air Lines,Transportation,United States,44940.0,4086.0,61841.0,38101.0
+2020,263,Delta Air Lines,Transportation,United States,45126.0,3503.0,68738.0,16526.0
+2021,715,Delta Air Lines,Transportation,United States,12653.0,-13028.0,73083.0,29763.0
+2022,615,Delta Air Lines,Transportation,United States,35098.0,516.0,73748.0,28009.0

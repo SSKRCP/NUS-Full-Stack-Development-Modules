@@ -1,0 +1,16 @@
+Year,Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+2008,1729,Givaudan,Chemicals,Switzerland,3640.0,80,6790.0,7130.0
+2009,1758,Givaudan,Chemicals,Switzerland,3830.0,100,6510.0,4130.0
+2010,1519,Givaudan,Chemicals,Switzerland,3820.0,190,6810.0,6790.0
+2011,1358,Givaudan,Chemicals,Switzerland,4539.0,364.0,7330.0,9012.0
+2012,1896,Givaudan,Chemicals,Switzerland,4174.0,268.7,7077.0,8573.0
+2013,1353,Givaudan,Chemicals,Switzerland,4647.0,448.7,6857.0,11901.0
+2014,1307,Givaudan,Chemicals,Switzerland,4713.0,529.0,6974.0,14261.0
+2015,1259,Givaudan,Consumer Durables,Switzerland,4811.0,615.0,6513.0,16853.0
+2016,1158,Givaudan,Consumer Durables,Switzerland,4565.0,659.5,6276.0,18070.0
+2017,1207,Givaudan,Consumer Durables,Switzerland,4733.0,653.7,6409.0,16626.0
+2018,1199,Givaudan,Consumer Durables,Switzerland,5132.0,731.5,7500.0,21055.0
+2019,1186,Givaudan,Consumer Durables,Switzerland,5648.0,677.0,9402.0,23337.0
+2020,1030,Givaudan,Consumer Durables,Switzerland,6242.0,706.4,10736.0,30878.0
+2021,926,Givaudan,Consumer Durables,Switzerland,6735.0,791.6,12057.0,38655.0
+2022,1125,Givaudan,Consumer Durables,Switzerland,7311.0,898.0,12534.0,36928.0
