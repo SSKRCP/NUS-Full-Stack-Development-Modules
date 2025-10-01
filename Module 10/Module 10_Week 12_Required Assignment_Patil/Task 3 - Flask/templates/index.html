@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students Management - Motivational Images</title>
+</head>
+<body>
+    {% if username %}
+        <h1>Hi {{ username }}!</h1>
+    {% else %}
+        <h1>Hi!</h1>
+    {% endif %}
+    <h2>
+        Welcome to the Students Management Website
+    </h2>
+    <h3>
+        Here are a few images to motivate you!
+    </h3>
+
+     <table width="80%" height="99%" border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td align="center">
+                <img src="../static/Image1.jpg" width="600px" />
+            </td>
+            <td align="center">
+                <img src="../static/Image2.jpg" width="600px" />
+            </td>
+        </tr>
+     </table>
+        
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Students Management</title>
+    </head>
+
+    <body>
+        <h1>Students Management - View All Students</h1>
+        <p><a href="/">Home</a></p>
+        <p>
+            <table width="100%" border="1" cellpadding="10" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <th>Student ID</th>
+                        <th>First Name</th>
+                        <th>Middle Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th width="400px">Address</th>
+                        <th>Hobbies</th>
+                        <th>Action</th>
+                    </tr>
+                    {% for student in students %}
+                        <tr>
+                            <td>{{ student[0] }}</td>
+                            <td>{{ student[1] }}</td>
+                            <td>{{ student[2] }}</td>
+                            <td>{{ student[3] }}</td>
+                            <td>{{ student[4] }}</td>
+                            <td>{{ student[5] }}</td>
+                            <td>{{ student[6] }}</td> 
+                            <td><a href="/updateStudentInfo/{{ student[0] }}">Update</a> | <a href="/deleteStudentRecord/{{ student[0] }}">Delete</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </p>
+    </body>
+
+</html>

@@ -3,7 +3,16 @@
 2) git status
 3) git add .
 4) git status
-5) git commit -m "NUS Module 3" any comment)
+5) git commit -m "NUS Module 3" (any comment)
 6) git branch -M main
 7) git remote add origin https://github.com/SSKRCP/NUS-Full-Stack-Development-Modules.git
 8) git push -u origin main
+
+_________________________________________________________________________
+
+
+1) Below command to see the current branch
+git branch -vv
+
+2) Below command to see which remote branch is set up on git
+git remote show origin

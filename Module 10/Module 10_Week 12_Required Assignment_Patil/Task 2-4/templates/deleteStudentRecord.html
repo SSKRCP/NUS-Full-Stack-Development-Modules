@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Students Management</title>
+    </head>
+    <body>
+        <h1>Students Management - Delete Student Record</h1>
+        <p><a href="/">Home</a></p>
+        <p>
+            <form action="/deleteStudentRecord/{{ student[0] }}" method="post">
+                <table width="100%" border="1" cellpadding="10" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>Student ID:</td>
+                            <td>{{ student[0] }}</td>
+                        </tr>
+                        <tr>
+                            <td>First Name:</td>
+                            <td>{{ student[1] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Middle Name:</td>
+                            <td>{{ student[2] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td>{{ student[3] }} </td>
+                        </tr>
+                        <tr>
+                            <td>Age:</td>
+                            <td>{{ student[4] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td>{{ student[5] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies:</td>
+                            <td>{{ student[6] }}</td>
+                        </tr> 
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="Delete Student Record"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </p>
+    </body>
+
+</html>

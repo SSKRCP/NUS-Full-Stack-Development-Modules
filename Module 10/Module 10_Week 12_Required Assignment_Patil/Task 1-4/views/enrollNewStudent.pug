@@ -1,0 +1,40 @@
+doctype html
+
+html
+  head
+    title Students Management
+  body
+    h1 Students Management - Enroll New Student
+    p
+        a(href="/") Home
+    p
+        form(action="/enrollNewStudent", method="post")
+            table(width="100%" border="1" cellpadding="10" cellspacing="0")
+                tbody
+                    tr
+                        td First Name:
+                        td
+                            input(type="text", name="first_name", required="required")
+                    tr
+                        td Middle Name:
+                        td
+                            input(type="text", name="middle_name", required="required")                    
+                    tr
+                        td Last Name:
+                        td
+                           input(type="text", name="last_name", required="required")
+                    tr
+                        td Age:
+                        td
+                            input(type="number", name="age", required="required")
+                    tr
+                        td Address:
+                        td
+                            textarea(name="address", rows="5", cols="50")                             
+                    tr
+                        td Hobbies:
+                        td
+                            textarea(name="hobbies", rows="5", cols="50")   
+                    tr
+                        td(colspan=2, align="center")
+                            input(type="submit", value="Enroll")

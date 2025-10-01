@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Students Management</title>
+    </head>
+
+    <body>
+        <h1>Students Management - Update Student Information</h1>
+        <p><a href="/">Home</a></p>
+        <p>
+            <form action="/updateStudentInfo/{{ student[0] }}" method="post">
+                <table width="100%" border="1" cellpadding="10" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td>Student ID:</td>
+                            <td>{{ student[0] }}</td>
+                        </tr>
+                        <tr>
+                            <td>First Name:</td>
+                            <td><input type="text" name="first_name" required="required" value="{{ student[1] }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Middle Name:</td>
+                            <td><input type="text" name="middle_name" required="required" value="{{ student[2] }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td><input type="text" name="last_name" required="required" value="{{ student[3] }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="number" name="age" required="required" value="{{ student[4] }}" /></td>
+                        </tr>
+                        <tr>
+                            <td>Address:</td>
+                            <td><textarea  name="address" rows="5" cols="50" required="required">{{ student[5] }}</textarea></td>
+                        </tr> 
+                        <tr>
+                            <td>Hobbies:</td>
+                            <td> <textarea name="hobbies" rows="5" cols="50" required="required">{{ student[6] }}</textarea></td>
+                        </tr> 
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="Update Student Info" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </p>
+    </body>
+
+</html>

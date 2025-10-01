@@ -1,0 +1,34 @@
+doctype html
+
+html
+  head
+    title Students Management
+  body
+    h1 Students Management - View All Students
+    p
+        a(href="/") Home
+    p
+        table(width="100%" border="1" cellpadding="10" cellspacing="0")
+            tbody
+                tr
+                    th Student ID
+                    th First Name
+                    th Middle Name
+                    th Last Name
+                    th Age
+                    th(width="400px") Address
+                    th Hobbies
+                    th Action
+                each student in students
+                    tr
+                        td #{student.student_id}
+                        td #{student.first_name}
+                        td #{student.middle_name}
+                        td #{student.last_name}
+                        td #{student.age}
+                        td #{student.address}
+                        td #{student.hobbies} 
+                        td
+                            a(href=`/updateStudentInfo/${student.student_id}`) Update | 
+                            a(href=`/deleteStudentRecord/${student.student_id}`) Delete
+                            

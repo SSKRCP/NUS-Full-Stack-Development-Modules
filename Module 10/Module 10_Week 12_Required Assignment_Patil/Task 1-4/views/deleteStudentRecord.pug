@@ -1,0 +1,37 @@
+doctype html
+
+html
+  head
+    title Students Management
+  body
+    h1 Students Management - Delete Student Record
+    p
+        a(href="/") Home
+    p
+        form(action="/deleteStudentRecord/" + student.student_id, method="post")
+            table(width="100%" border="1" cellpadding="10" cellspacing="0")
+                tbody
+                    tr
+                        td Student ID:
+                        td #{student.student_id}
+                    tr
+                        td First Name:
+                        td #{student.first_name}
+                    tr
+                        td Middle Name:
+                        td #{student.middle_name}
+                    tr
+                        td Last Name:
+                        td #{student.last_name}
+                    tr
+                        td Age:
+                        td #{student.age}
+                    tr
+                        td Address:
+                        td #{student.address}
+                    tr
+                        td Hobbies:
+                        td #{student.hobbies} 
+                    tr
+                        td(colspan=2, align="center")
+                            input(type="submit", value="Delete Student Record")

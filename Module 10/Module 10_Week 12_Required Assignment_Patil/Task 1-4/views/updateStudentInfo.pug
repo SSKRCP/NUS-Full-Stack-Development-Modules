@@ -1,0 +1,43 @@
+doctype html
+
+html
+  head
+    title Students Management
+  body
+    h1 Students Management - Update Student Information 
+    p
+        a(href="/") Home
+    p
+        form(action="/updateStudentInfo/" + student.student_id, method="post")
+            table(width="100%" border="1" cellpadding="10" cellspacing="0")
+                tbody
+                    tr
+                        td Student ID:
+                        td #{student.student_id}
+                    tr
+                        td First Name:
+                        td
+                            input(type="text", name="first_name", required="required", value=student.first_name)
+                    tr
+                        td Middle Name:
+                        td
+                            input(type="text", name="middle_name", required="required", value=student.middle_name)      
+                    tr
+                        td Last Name:
+                        td
+                            input(type="text", name="last_name", required="required", value=student.last_name)    
+                    tr 
+                        td Age
+                        td 
+                            input(type="number", name="age", required="required", value=student.age)
+                    tr
+                        td Address:
+                        td
+                            textarea(name="address", rows="5", cols="50") #{student.address}
+                    tr
+                        td Hobbies:
+                        td
+                            textarea(name="hobbies", rows="5", cols="50") #{student.hobbies}                     
+                    tr
+                        td(colspan=2, align="center")
+                            input(type="submit", value="Update Student Info")
