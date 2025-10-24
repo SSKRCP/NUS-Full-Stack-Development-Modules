@@ -1,0 +1,26 @@
+[
+    {
+     "name": "AirFly",
+     "destinations": ["New York", "London", "Paris"]
+    },
+    
+    {
+    "name": "SkyHigh",
+    "destinations": ["Sydney", "Delhi", "CapeTown"]
+    },
+    
+    {
+    "name": "BudgetAir",
+    "destinations": ["Sapporo", "Nagoya", "Kyoto"]
+    },
+    {
+    "name": "EasternAir",
+    "destinations": ["Shanghai", "Bangkok", "Manila"]
+    },
+    {
+    "name": "Jalines",
+    "destinations": ["Singapore", "Sydney", "Auckland"]
+    }
+    
+]
+

@@ -1,0 +1,21 @@
+{
+  "name": "mongoproj",
+  "version": "1.0.0",
+  "description": "A test project for MongoDB learning",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV = production node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,94 @@
+[
+    {
+     "partner":  "AirFly",
+     "address_object" :{
+        
+        "address_string": "Germania Fluggesellschaft mbH Riedemannweg 58",
+        "country" : "Germany",
+        "postalcode" : "23412"
+
+     },
+     "destinations": ["London", "Paris"],
+     "review_rating_count": {
+             "1": 15,
+             "2": 14,
+             "3": 44,
+             "4": 162,
+             "5": 268
+     },
+     "reviews": [
+        { "id": "01",
+          "text": "This was a very good flight, to and from London. \nThe seats were very comfortable",
+          "class_service": {
+            "name": "Business",
+            "localized_name": "Business Class"
+           }
+        }
+     ]
+
+
+    },
+    
+
+    {
+        "partner":  "SkyHigh",
+        "address_object" :{
+           
+           "address_string": "Ansgarstr. 4, Wallenhorst",
+           "country" : "Germany",
+           "postalcode" : "491212"
+   
+        },
+        "destinations": ["Berlin", "Zurich"],
+        "review_rating_count": {
+                "1": 7,
+                "2": 56,
+                "3": 74,
+                "4": 362,
+                "5": 268
+        },
+        "reviews": [
+           { "id": "01",
+             "text": "This was a short flight, to and from Berlin. \nIt was a no-frills and on-time flight",
+             "class_service": {
+               "name": "Economy",
+               "localized_name": "Economy Class"
+              }
+           }
+        ]
+           
+       },
+
+
+       {
+        "partner":  "EasternAir",
+        "address_object" :{
+           
+           "address_string": "Lehmbergerstr. 2, Damp",
+           "country" : "Germany",
+           "postalcode" : "24351"
+   
+        },
+        "destinations": ["Beijing", "Shanghai"],
+        "review_rating_count": {
+                "1": 67,
+                "2": 56,
+                "3": 74,
+                "4": 162,
+                "5": 98
+        },
+        "reviews": [
+           { "id": "01",
+             "text": "This was a direct flight, to and from Shanghai. \n Ticket is fairly cheap and meal is included as well. Service was normal.",
+             "class_service": {
+               "name": "Economy",
+               "localized_name": "Economy Class"
+              }
+           }
+        ]
+           
+       }
+
+
+]
+

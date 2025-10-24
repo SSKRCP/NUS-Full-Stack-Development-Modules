@@ -1,0 +1,27 @@
+[
+  {
+    "departureAirport": "MUC",
+    "arrivalAirport": "SIN",
+    "aircraft": "Boeing 787-9",
+    "flight": "SQ278",
+    "distance": 10051,
+    "intercontinental": true
+  },
+  {
+    "departureAirport": "ADL",
+    "arrivalAirport": "SIN",
+    "aircraft": "Airbus A320",
+    "flight": "SQ327",
+    "distance": 5450,
+    "intercontinental": false
+  },
+  {
+    "departureAirport": "PVG",
+    "arrivalAirport": "SIN",
+    "aircraft": "Boeing 777-3",
+    "flight": "SQ827",
+    "distance": 3790,
+    "intercontinental": false
+  }
+]
+
